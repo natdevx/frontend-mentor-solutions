@@ -9,6 +9,8 @@ Este proyecto me ayudó a practicar conceptos básicos de maquetación, estilos 
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Descripción general](#descripción-general)
     - [Captura de pantalla](#captura-de-pantalla)
+    - [Versión escritorio](#versión-escritorio)
+    - [Versión móvil](#versión-móvil)
     - [Links](#links)
   - [Mi proceso](#mi-proceso)
     - [Construido con](#construido-con)
@@ -24,15 +26,18 @@ Este es un proyecto sencillo y perfecto para practicar los fundamentos de HTML s
 El objetivo es replicar lo más fielmente posible el diseño original proporcionado por Frontend Mentor.
 
 ### Captura de pantalla
+Estas son las **capturas finales de mi solución**, tanto en escritorio como en móvil:
 
+### Versión escritorio
 ![Captura del proyecto modo escritorio](./images/qr-desktop-solution.png)
 
+### Versión móvil
 ![Captura del proyecto modo movil](./images/qr-mobile-solution.png)
 
 ### Links
 
 - URL de la solución en Frontend Mentor: *(Agrégala cuando la publiques)*
-- URL del sitio en vivo (GitHub Pages): *(Agrega tu link cuando lo subas)*
+- URL del sitio en vivo (GitHub Pages): https://natdevx.github.io/frontend-mentor-solutions/01-qr-code/ 
 
 ---
 
