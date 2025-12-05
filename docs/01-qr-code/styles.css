@@ -22,6 +22,7 @@ html {
 
 body {
     display: flex;
+    flex-direction: column; /* Es para que se acomode verticalmente*/
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -63,4 +64,21 @@ img {
     color: var(--grayish-blue);
     font-size: var(--paragraph-size);
     font-weight: 400;
+}
+
+.attribution {
+    margin-top: 30px;       /* espacio entre el card y el footer */
+    font-size: 12px;        /* texto pequeño */
+    text-align: center;     
+    color: var(--grayish-blue);
+    opacity: 0.7;           
+}
+
+.attribution a {
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
 }
