@@ -93,10 +93,27 @@ header.scrolled{
 .hero-title{
   font-family:"Space Grotesk",sans-serif;
   font-size:48px;
+  font-weight:700;
   line-height:1.03;
   margin-bottom:12px;
   color:var(--white);
 }
+
+/* Texto "Bienvenido a mi" */
+.hero-welcome {
+  opacity: 0.9;              /* un poquito más suave */
+}
+
+/* Texto "Frontend Lab" */
+.hero-highlight {
+  color: var(--accent-orange);
+  font-weight: 800;        /* MÁS grosor */
+  letter-spacing: 1px;
+  font-size: 1.35em;       /* MÁS grande que el título base */
+  line-height: 1.1;
+  display: inline-block;   /* asegura que respete bien el tamaño */
+}
+
 .hero-subtitle{
   color:rgba(255,255,255,0.82);
   max-width:640px;
