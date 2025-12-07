@@ -138,3 +138,30 @@ body {
 .attribution a:hover {
     text-decoration: underline;
 }
+
+/* Responsive */
+@media (max-width: 480px) {
+
+  body {
+    padding: 20px; /* evita que la card pegue a los bordes */
+  }
+
+  .card {
+    width: 100%;      /* ocupa todo el ancho disponible */
+    max-width: 340px; /* tamaño ideal del diseño en móvil */
+    padding: 20px;
+    box-shadow: 4px 4px 0 var(--gray-950);
+  }
+
+  .card__title {
+    font-size: 18px; /* ligeramente más pequeño para móvil */
+  }
+
+  .card__description {
+    font-size: 15px;
+  }
+
+  .card__img {
+    margin-bottom: 20px;
+  }
+}
