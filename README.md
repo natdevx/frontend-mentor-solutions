@@ -1,9 +1,9 @@
 # Frontend Mentor Solutions  
-[English](#english) • [Español](#español)
+[English](#english) | [Español](#español)
 
 ---
 
-## 🇺🇸 English
+## English
 
 ### Overview
 This repository contains two main sections:
@@ -80,7 +80,7 @@ You can reach me through my GitHub profile anytime.
 
 ---
 
-## 🇲🇽 Español
+## Español
 
 ### Descripción
 Este repositorio contiene dos secciones principales:
