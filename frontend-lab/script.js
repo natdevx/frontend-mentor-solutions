@@ -1,26 +1,17 @@
-// HEADER BLUR AL SCROLL
-const header = document.getElementById("header");
+// Animación fade-in para las cards
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".fade-in");
 
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 10) {
-    header.classList.add("scrolled");
-  } else {
-    header.classList.remove("scrolled");
-  }
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  cards.forEach((card) => observer.observe(card));
 });
-
-// ANIMACIÓN DE ENTRADA (FADE-IN)
-const elements = document.querySelectorAll(".fade-in");
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-      }
-    });
-  },
-  { threshold: 0.3 }
-);
-
-elements.forEach((el) => observer.observe(el));
