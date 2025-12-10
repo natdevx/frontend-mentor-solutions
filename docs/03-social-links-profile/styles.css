@@ -1,5 +1,108 @@
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf) 
+    format("truetype");
+    font-weight: 400 700;
+    font-style: normal;
+    unicode-range: U+0000-00FF;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    
+    --paragraph-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    font-family: "Inter", sans-serif;
+    background-color: var(--grey-900);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.card {
+    width: 100%;
+    background-color: var(--grey-800);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+    margin-inline: auto;
+    max-width: 350px;
+}
+.card__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.card__name {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.card__location {
+    color: var(--green);
+    font-size: var(--paragraph-size);
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+.card__bio {
+    color: var(--white);
+    font-size: var(--paragraph-size);
+    margin-bottom: 16px;
+}
+.card__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.card__button {
+    color: var(--white);
+}
 
 
+/* Footer */
+.attribution {
+    margin-top: 35px;
+    font-size: 12px;
+    text-align: center;
+    color: var(--white);
+    opacity: 0.7;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+    color: var(--green);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
