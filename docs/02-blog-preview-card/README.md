@@ -1,110 +1,252 @@
-# Frontend Mentor - Blog preview card solution
+# Blog Preview Card — Frontend Mentor Challenge  
+[English](#english) • [Español](#español)
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+---
 
-## Table of contents
+# English Version <a id="english"></a>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+## Frontend Mentor – Blog Preview Card Solution
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+This is my solution to the  
+**Blog preview card** challenge from Frontend Mentor.
 
-## Overview
+This project helped me practice layout structure, typography, small interactions, and responsive design using only **HTML and CSS**.
 
-### The challenge
+---
 
-Users should be able to:
+## Table of Contents
 
-- See hover and focus states for all interactive elements on the page
+- [Blog Preview Card — Frontend Mentor Challenge](#blog-preview-card--frontend-mentor-challenge)
+- [English Version ](#english-version-)
+  - [Frontend Mentor – Blog Preview Card Solution](#frontend-mentor--blog-preview-card-solution)
+  - [Table of Contents](#table-of-contents)
+  - [Overview ](#overview-)
+  - [Screenshot ](#screenshot-)
+    - [Desktop version](#desktop-version)
+    - [Active states version](#active-states-version)
+    - [Mobile version](#mobile-version)
+  - [Links ](#links-)
+  - [My Process ](#my-process-)
+  - [Built With ](#built-with-)
+  - [What I Learned ](#what-i-learned-)
+    - [Example: Importing the font](#example-importing-the-font)
+    - [Example: Card structure](#example-card-structure)
+  - [Continued Development ](#continued-development-)
+  - [Author ](#author-)
+- [Versión en Español ](#versión-en-español-)
+  - [Frontend Mentor – Solución al Blog Preview Card](#frontend-mentor--solución-al-blog-preview-card)
+  - [Descripción General ](#descripción-general-)
+  - [Capturas ](#capturas-)
+    - [Versión escritorio](#versión-escritorio)
+    - [Versión con estados activos](#versión-con-estados-activos)
+    - [Versión móvil](#versión-móvil)
+  - [Enlaces ](#enlaces-)
+  - [Mi Proceso ](#mi-proceso-)
+  - [Construido Con ](#construido-con-)
+  - [Lo que Aprendí ](#lo-que-aprendí-)
+    - [Ejemplo: Importando la fuente](#ejemplo-importando-la-fuente)
+  - [Desarrollo Continuo ](#desarrollo-continuo-)
+  - [Autor ](#autor-)
 
-### Screenshot
+---
 
-![](./screenshot.jpg)
+## Overview <a id="overview"></a>
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+The challenge consists of building a **blog preview card** containing:
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+- An image  
+- A category tag  
+- A publication date  
+- A title  
+- A description  
+- Author information  
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+The goal is to recreate the provided design using **clean semantic HTML** and **modular CSS**.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+The component is **fully responsive**, working smoothly on both desktop and mobile layouts.
 
-### Links
+---
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+## Screenshot <a id="screenshot"></a>
 
-## My process
+### Desktop version
+![Captura del proyecto modo escritorio](./assets/images/blog-desktop.png)
 
-### Built with
+### Active states version
+![Captura del proyecto modo escritorio](./assets/images/blog-active-states.png)
 
-- Semantic HTML5 markup
-- CSS custom properties
+### Mobile version
+![Captura del proyecto modo movil](./assets/images/blog-mobile.png)
+
+---
+
+## Links <a id="links"></a>
+
+- **Frontend Mentor submission:** (Add when uploaded)  
+- **Live Site (GitHub Pages):**  
+  https://natdevx.github.io/frontend-mentor-solutions/docs/02-blog-preview-card/
+
+---
+
+## My Process <a id="my-process"></a>
+
+---
+
+## Built With <a id="built-with"></a>
+
+- Semantic HTML5 (`<main>`, `<article>`, `<footer>`, `<time>`)
+- Pure CSS
+- **Figtree** variable font
 - Flexbox
-- CSS Grid
+- CSS custom properties (variables)
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Hover interactions
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+---
 
-### What I learned
+## What I Learned <a id="what-i-learned"></a>
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Some of the key takeaways from this challenge:
 
-To see how you can add code snippets, see below:
+- Proper use of `<article>` for independent content blocks  
+- Using `<time>` to mark publication dates  
+- Importing and using variable fonts with `@font-face`  
+- Creating stylized “cartoon border” shadows  
+- Building clean and reusable card components  
+- Responsive design using media queries  
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+### Example: Importing the font
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+### Example: Card structure
+```css
+.card {
+  background: var(--white);
+  width: 384px;
+  padding: 24px;
+  border-radius: 14px;
+  border: 1px solid var(--gray-950);
+  box-shadow: 6px 6px 0 var(--gray-950);
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+## Continued Development <a id="continued-development"></a>
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+In future challenges, I want to improve:
+- More scalable CSS architecture (e.g., BEM).
+- Smoother UI animations.
+- Accessibility best practices (a11y).
+- Separation and modularization of CSS
 
-### Continued development
+## Author <a id="author"></a>
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+GitHub: https://github.com/natdevx
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Frontend Mentor: https://www.frontendmentor.io/profile/natdevx
 
-### Useful resources
+---
+---
+# Versión en Español <a id="español"></a>
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+## Frontend Mentor – Solución al Blog Preview Card
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Esta es mi solución al desafío  
+**Blog preview card** de Frontend Mentor.
 
-## Author
+Este proyecto me ayudó a practicar estructura de maquetación, tipografía, pequeñas interacciones y diseño responsivo usando únicamente **HTML y CSS**.
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+---
+## Descripción General <a id="descripción-general"></a>
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+El desafío consiste en construir una **tarjeta de vista previa de un blog**, que incluye:
 
-## Acknowledgments
+- Una imagen  
+- Una etiqueta de categoría  
+- Una fecha de publicación  
+- Un título  
+- Una descripción  
+- Información del autor  
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+El objetivo es replicar el diseño original utilizando **HTML semántico limpio** y **CSS modular**.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+El componente es **totalmente responsivo**, funcionando correctamente tanto en escritorio como en dispositivos móviles.
+
+---
+
+## Capturas <a id="capturas"></a>
+
+### Versión escritorio
+![Captura del proyecto modo escritorio](./assets/images/blog-desktop.png)
+
+### Versión con estados activos
+![Captura del proyecto modo escritorio con estados activos](./assets/images/blog-active-states.png)
+
+### Versión móvil
+![Captura del proyecto modo móvil](./assets/images/blog-mobile.png)
+
+---
+
+## Enlaces <a id="enlaces"></a>
+
+- **Solución en Frontend Mentor:** (Añadir cuando se publique)  
+- **Sitio en vivo (GitHub Pages):**  
+  https://natdevx.github.io/frontend-mentor-solutions/docs/02-blog-preview-card/
+
+---
+
+## Mi Proceso <a id="mi-proceso"></a>
+
+---
+
+## Construido Con <a id="construido-con"></a>
+
+- HTML5 semántico (`<main>`, `<article>`, `<footer>`, `<time>`)
+- CSS puro
+- Fuente variable **Figtree**
+- Flexbox
+- Propiedades personalizadas de CSS (variables)
+- Flujo de trabajo mobile-first
+- Interacciones hover
+
+---
+
+## Lo que Aprendí <a id="lo-que-aprendí"></a>
+
+Algunos puntos importantes que reforcé durante este desafío:
+
+- Uso correcto de `<article>` para contenido independiente  
+- Uso de `<time>` para marcar fechas de publicación  
+- Importación y uso de fuentes variables mediante `@font-face`  
+- Creación de sombras estilo “cartoon border”  
+- Construcción de componentes limpios y reutilizables  
+- Diseño responsive con media queries  
+
+### Ejemplo: Importando la fuente
+
+```css
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+}
+```
+
+## Desarrollo Continuo <a id="desarrollo-continuo"></a>
+
+En futuros desafíos, quiero mejorar:
+- Arquitectura CSS más escalable (por ejemplo, BEM).
+- Animaciones más fluidas.
+- Mejores prácticas de accesibilidad (a11y).
+- Separación y modularización del CSS
+
+## Autor <a id="autor"></a>
+
+GitHub: https://github.com/natdevx
+
+Frontend Mentor: https://www.frontendmentor.io/profile/natdevx
