@@ -77,18 +77,19 @@ header {
 
 .hero-title {
   font-family: "Space Grotesk", sans-serif;
-  font-size: 48px;
   font-weight: 700;
   line-height: 1.05;
 }
 
 .hero-welcome {
+  font-size: 40px;
+  font-weight: 600;
   opacity: 0.85;
 }
 
 .hero-highlight {
   color: var(--accent-orange);
-  font-size: 58px;
+  font-size: 64px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -97,6 +98,7 @@ header {
   margin: 20px 0 30px;
   color: var(--text-muted);
   line-height: 1.5;
+  text-align: justify;
 }
 
 /* Buttons */
