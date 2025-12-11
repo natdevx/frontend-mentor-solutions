@@ -1,5 +1,5 @@
 # Blog Preview Card — Frontend Mentor Challenge  
-[English](#english) • [Español](#español)
+[English](#english) | [Español](#español)
 
 ---
 

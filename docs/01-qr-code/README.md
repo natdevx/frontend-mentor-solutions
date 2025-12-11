@@ -1,6 +1,6 @@
 # QR Code Component - Frontend Mentor Challenge
 
-[English](#english) • [Español](#español)
+[English](#english) | [Español](#español)
 
 # English Version <a id="english"></a>
 
@@ -24,6 +24,7 @@ This project helped me practice basic layout structure, styling, and component o
     - [Built With](#built-with)
     - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
+- [Versión en Español ](#versión-en-español-)
 - [Frontend Mentor - Solución al componente de código QR](#frontend-mentor---solución-al-componente-de-código-qr)
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Descripción general](#descripción-general)
@@ -112,6 +113,7 @@ Frontend Mentor: https://www.frontendmentor.io/profile/natdevx
 
 ---
 ---
+# Versión en Español <a id="español"></a>
 
 # Frontend Mentor - Solución al componente de código QR
 
@@ -133,6 +135,7 @@ Este proyecto me ayudó a practicar conceptos básicos de maquetación, estilos 
     - [Built With](#built-with)
     - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
+- [Versión en Español ](#versión-en-español-)
 - [Frontend Mentor - Solución al componente de código QR](#frontend-mentor---solución-al-componente-de-código-qr)
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Descripción general](#descripción-general)
