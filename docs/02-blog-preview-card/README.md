@@ -82,7 +82,8 @@ The component is **fully responsive**, working smoothly on both desktop and mobi
 
 ## Links <a id="links"></a>
 
-- **Frontend Mentor submission:** (Add when uploaded)  
+- **Frontend Mentor submission:** 
+  https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-css-flexbox-PrtE4gkw4W 
 - **Live Site (GitHub Pages):**  
   https://natdevx.github.io/frontend-mentor-solutions/docs/02-blog-preview-card/
 
@@ -194,7 +195,8 @@ El componente es **totalmente responsivo**, funcionando correctamente tanto en e
 
 ## Enlaces <a id="enlaces"></a>
 
-- **Solución en Frontend Mentor:** (Añadir cuando se publique)  
+- **Solución en Frontend Mentor:** 
+  https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-css-flexbox-PrtE4gkw4W  
 - **Sitio en vivo (GitHub Pages):**  
   https://natdevx.github.io/frontend-mentor-solutions/docs/02-blog-preview-card/
 
