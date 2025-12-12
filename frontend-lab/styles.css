@@ -170,6 +170,7 @@ header {
   gap: 26px;
 }
 
+/* Cards */
 .card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
@@ -203,6 +204,15 @@ header {
   border-radius: 6px;
   margin-right: 6px;
   margin-bottom: 6px;
+}
+
+.card-description {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 14px;
+  text-align: justify;
+  line-height: 1.4;
+  opacity: 0.85;
 }
 
 .card-buttons {
