@@ -14,7 +14,7 @@
 /* GLOBAL */
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   background: var(--bg-dark);
   color: var(--text-light);
 }
@@ -47,8 +47,9 @@ header {
 }
 
 .logo {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: italic;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -76,20 +77,21 @@ header {
 }
 
 .hero-title {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
   line-height: 1.05;
 }
 
 .hero-welcome {
+  font-family: "Fraunces", serif;
+  font-style: italic;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   opacity: 0.85;
 }
 
 .hero-highlight {
+  font-family: "Plus Jakarta Sans", sans-serif;
   color: var(--accent-orange);
-  font-size: 64px;
+  font-size: 72px;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -99,8 +101,14 @@ header {
   color: var(--text-muted);
   line-height: 1.5;
   text-align: justify;
+  font-size: 16px;
 }
 
+/* HERO buttons container */
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+}
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -135,11 +143,6 @@ header {
 .btn.small {
   padding: 8px 14px;
   font-size: 14px;
-}
-
-.icon {
-  width: 18px;
-  height: 18px;
 }
 
 /* imagen del hero */
