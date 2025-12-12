@@ -164,7 +164,7 @@ header {
   margin-bottom: 30px;
 }
 
-.projects-grid {
+.projects-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 26px;
