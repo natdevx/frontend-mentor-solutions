@@ -72,15 +72,49 @@ body {
 
 /* Preparation time */
 .card__section-info {
-    margin-bottom: 20px;
-    background-color: var(--rose-50);
+  background-color: var(--rose-50);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
 }
+
+/* Título */
 .card__title-info {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--rose-800);
-    margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--rose-800);
+  margin-bottom: 12px;
 }
+
+/* Lista */
+.card__list-info {
+  font-size: var(--paragraph-size);
+  padding-left: 24px;
+  margin: 0;
+  list-style: disc;
+}
+
+/* Ítems */
+.card__item-info {
+    padding-left: 6px;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+.card__item-info strong {
+  color: var(--brown-600); /* o el color que quieras */
+  font-weight: 700;
+}
+/* Viñetas rosadas */
+.card__item-info::marker {
+  color: var(--rose-800);
+}
+
+/* Negritas */
+.card__item-info strong {
+  font-weight: 700;
+  color: var(--brown-600);
+}
+
 
 /* Ingredients, Instructions & Nutrition */
 .card__section-title {
