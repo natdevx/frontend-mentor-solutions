@@ -1,4 +1,19 @@
-
+@font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) 
+    format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    unicode-range: U+0000-00FF;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) 
+    format("truetype");
+    font-weight: 400 700;
+    font-style: normal;
+    unicode-range: U+0000-00FF;
+}
 
 :root {
     --white: hsl(0, 0%, 100%);
@@ -10,8 +25,88 @@
     --rose-800: hsl(332, 51%, 32%);
     --rose-50: hsl(330, 100%, 98%);
     
-    --paragraph-size: 14px;
-}   
+    --paragraph-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--stone-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.card {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 50px;
+    margin-inline: auto;
+    max-width: 700px;
+}
+.card__img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card__title {
+    font-family: "Young Serif", serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--stone-900);
+    margin-bottom: 15px;
+}
+.card__description {
+    font-size: var(--paragraph-size);
+    color: var(--stone-600);
+    margin-bottom: 25px;
+}
+
+/* Preparation time */
+.card__section-info {
+    margin-bottom: 20px;
+    background-color: var(--rose-50);
+}
+.card__title-info {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--rose-800);
+    margin-bottom: 8px;
+}
+
+/* Ingredients, Instructions & Nutrition */
+.card__section-title {
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--brown-800);
+    margin-bottom: 15px;
+}
+.card__list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.card__list-item {
+    font-size: var(--paragraph-size);
+    color: var(--stone-600);
+    margin-bottom: 8px;
+}
+.card__section {
+    margin-bottom: 30px;
+}
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
 
 /* Footer */
@@ -21,6 +116,7 @@
     text-align: center;
     color: var(--brown-800);
     opacity: 0.7;
+    margin-bottom: 20px;
 }
 .attribution a {
     color: var(--rose-800);
