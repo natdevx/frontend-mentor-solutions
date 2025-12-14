@@ -28,6 +28,19 @@ This challenge focuses on building a clean and accessible recipe layout, includi
     - [Example: Nutrition table styling ](#example-nutrition-table-styling-)
   - [Continued Development ](#continued-development-)
   - [Author ](#author-)
+- [Versión en Español ](#versión-en-español-)
+  - [Frontend Mentor – Solución al Recipe Page](#frontend-mentor--solución-al-recipe-page)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Descripción General ](#descripción-general-)
+  - [Capturas ](#capturas-)
+    - [Versión Escritorio](#versión-escritorio)
+    - [Versión Móvil](#versión-móvil)
+  - [Enlaces ](#enlaces-)
+  - [Construido Con ](#construido-con-)
+  - [Lo que Aprendí ](#lo-que-aprendí-)
+    - [Ejemplo: Estilos de tabla nutricional ](#ejemplo-estilos-de-tabla-nutricional-)
+  - [Desarrollo Continuo ](#desarrollo-continuo-)
+  - [Autor ](#autor-)
 
 ---
 
@@ -106,6 +119,132 @@ In future projects, I want to continue improving:
 - Pixel-perfect attention to design details
 
 ## Author <a id="author"></a>
+
+GitHub: https://github.com/natdevx
+
+Frontend Mentor: https://www.frontendmentor.io/profile/natdevx
+
+---
+---
+# Versión en Español <a id="español"></a>
+
+## Frontend Mentor – Solución al Recipe Page
+
+Esta es mi solución al desafío  
+**Recipe page** de Frontend Mentor.
+
+Este reto se enfoca en crear una página de receta clara y accesible, utilizando **HTML semántico** y **CSS moderno**, con especial atención a listas, secciones y tablas.
+
+---
+
+## Tabla de Contenidos
+
+- [Recipe Page — Frontend Mentor Challenge](#recipe-page--frontend-mentor-challenge)
+- [English Version ](#english-version-)
+  - [Frontend Mentor - Recipe page solution](#frontend-mentor---recipe-page-solution)
+  - [Table of Contents](#table-of-contents)
+  - [Overview ](#overview-)
+  - [Screenshots ](#screenshots-)
+    - [Desktop Version](#desktop-version)
+    - [Mobile Version](#mobile-version)
+  - [Links ](#links-)
+  - [Built With ](#built-with-)
+  - [What I Learned ](#what-i-learned-)
+    - [Example: Nutrition table styling ](#example-nutrition-table-styling-)
+  - [Continued Development ](#continued-development-)
+  - [Author ](#author-)
+- [Versión en Español ](#versión-en-español-)
+  - [Frontend Mentor – Solución al Recipe Page](#frontend-mentor--solución-al-recipe-page)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Descripción General ](#descripción-general-)
+  - [Capturas ](#capturas-)
+    - [Versión Escritorio](#versión-escritorio)
+    - [Versión Móvil](#versión-móvil)
+  - [Enlaces ](#enlaces-)
+  - [Construido Con ](#construido-con-)
+  - [Lo que Aprendí ](#lo-que-aprendí-)
+    - [Ejemplo: Estilos de tabla nutricional ](#ejemplo-estilos-de-tabla-nutricional-)
+  - [Desarrollo Continuo ](#desarrollo-continuo-)
+  - [Autor ](#autor-)
+
+---
+
+## Descripción General <a id="descripción-general"></a>
+
+El reto consiste en crear una **página de receta**, que incluye:
+
+- Imagen principal del platillo  
+- Tiempo de preparación  
+- Lista de ingredientes  
+- Instrucciones paso a paso  
+- Tabla de información nutricional  
+
+El objetivo es replicar el diseño original proporcionado por Frontend Mentor usando **HTML semántico limpio** y **CSS bien estructurado**.
+
+El diseño es completamente responsivo y se adapta correctamente a dispositivos móviles.
+
+---
+
+## Capturas <a id="capturas"></a>
+
+### Versión Escritorio
+![Desktop screenshot](./assets/images/recipe-page-desktop.png)
+
+### Versión Móvil
+![Mobile screenshot](./assets/images/recipe-page-mobile.png)
+
+---
+
+## Enlaces <a id="enlaces"></a>
+
+- **Solución en Frontend Mentor:** *(Agrégala cuando la publiques)*  
+- **Sitio en vivo (GitHub Pages):**  
+  https://natdevx.github.io/frontend-mentor-solutions/docs/04-recipe-page/
+
+---
+
+## Construido Con <a id="construido-con"></a>
+
+- HTML5 semántico  
+- CSS puro  
+- Variables CSS  
+- Flexbox  
+- Mobile-first  
+- Diseño responsivo  
+- Pseudo-clases CSS  
+
+---
+
+## Lo que Aprendí <a id="lo-que-aprendí"></a>
+
+En este desafío practiqué:
+
+- Estructurar contenido largo de forma clara  
+- Estilizar listas e instrucciones  
+- Crear tablas accesibles para datos nutricionales  
+- Controlar bordes de tablas con selectores avanzados  
+- Mejorar jerarquía visual y espaciado  
+
+### Ejemplo: Estilos de tabla nutricional <a id="ejemplo-estilos-de-tabla-nutricional"></a>
+
+Para evitar que la primera fila tuviera una línea superior, utilicé el siguiente selector:
+
+```css
+.nutrition-table tr:not(:first-child) th,
+.nutrition-table tr:not(:first-child) td {
+  border-top: 1px solid var(--stone-150);
+}
+```
+
+## Desarrollo Continuo <a id="desarrollo-continuo"></a>
+
+En futuros retos quiero seguir mejorando:
+- Precisión visual (pixel-perfect).
+- Arquitectura CSS más escalable.
+- Accesibilidad y semántica.
+- Layouts más complejos
+
+## Autor <a id="autor-es"></a>
 
 GitHub: https://github.com/natdevx
 
