@@ -203,12 +203,14 @@ header {
   display: inline-block;
   padding: 4px 10px;
   font-size: 12px;
+  font-weight: 600;
   border-radius: 6px;
   margin-right: 6px;
   margin-bottom: 6px;
   border: 1px solid var(--accent-orange);
   color: var(--accent-orange);
-  margin-bottom: 10px;
+  background: #222;
+  margin-bottom: 12px;
 }
 
 .tags span {
@@ -232,6 +234,7 @@ header {
 
 .card-buttons {
   margin-top: 18px;
+  font-weight: 600;
   display: flex;
   gap: 10px;
 }
