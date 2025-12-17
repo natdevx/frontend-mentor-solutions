@@ -116,7 +116,7 @@ body {
 .card__section-title {
     font-family: "Young Serif", serif;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--brown-800);
     margin-bottom: 20px;
 }
@@ -135,6 +135,24 @@ body {
 /* Viñetas */
 .card__list-item::marker {
   color: var(--brown-800);
+  font-weight: 700;
+}
+
+/* lista numerada */
+.card__list--instructions {
+  list-style-type: decimal;
+  padding-left: 24px;
+}
+.card__list-instructions {
+    font-size: var(--paragraph-size);
+    color: var(--stone-600);
+    padding-left: 6px;
+    margin-bottom: 12px;
+    line-height: 1.75;
+}
+.card__list--instructions li::marker {
+  color: var(--brown-800);
+  font-weight: 700;
 }
 
 card__list-item
@@ -144,13 +162,6 @@ card__list-item
 .nutrition-table {
     width: 100%;
     border-collapse: collapse;
-}
-.card__list ol {
-  list-style-position: outside;
-}
-.card__list-item::marker {
-  color: var(--brown-800);
-  font-weight: 700;
 }
 
 .nutrition-table th,
