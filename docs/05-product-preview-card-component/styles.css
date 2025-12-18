@@ -80,7 +80,40 @@ body {
     line-height: 1.5;
 }
 
-
+/* Price & Button */
+.card__price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card__price--new {
+    color: var(--green-primary-dark);
+    font-size: 32px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+.card__price--old {
+    color: var(--grey-neutral);
+    font-size: var(--font-size-paragraph);
+    text-decoration: line-through;
+}
+.card__button {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: var(--green-primary);
+    color: var(--white-neutral);
+    border: none;
+    border-radius: 8px;
+    font-size: var(--font-size-paragraph);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.card__button:hover {
+    background-color: var(--green-primary-dark);
+}
 
 /* Footer */
 .attribution {
