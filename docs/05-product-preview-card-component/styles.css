@@ -34,15 +34,12 @@ body {
 /* Card Container */
 .card {
     display: flex;
-    max-width: 570px;
+    max-width: 600px;
     background-color: var(--white-neutral);
     border-radius: 12px;
     overflow: hidden;
 }
-.card__media,
-.card__content {
-  flex: 1;
-}
+
 /*Image */
 .card__image {
   width: 100%;
@@ -71,6 +68,7 @@ body {
     color: var(--black-neutral);
     font-size: 32px;
     line-height: 1.1;
+    letter-spacing: 1px;
     font-family: 'Fraunces', sans-serif;
     font-weight: 700;
     margin-top: 2px;
