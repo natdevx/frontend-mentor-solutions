@@ -34,7 +34,7 @@ body {
 /* Card Container */
 .card {
     display: flex;
-    max-width: 680px;
+    max-width: 570px;
     background-color: var(--white-neutral);
     border-radius: 12px;
     overflow: hidden;
@@ -53,7 +53,7 @@ body {
 
 /* Content */
 .card__content {
-    padding: 32px;
+    padding: 34px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -78,7 +78,10 @@ body {
 .card__description {
     color: var(--grey-neutral);
     font-size: var(--font-size-paragraph);
-    line-height: 1.5;
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    max-width: 240px;
 }
 
 /* Price & Button */
