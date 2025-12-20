@@ -83,8 +83,10 @@ header {
 .hero-welcome {
   font-family: "Fraunces", serif;
   font-style: italic;
-  font-size: 40px;
+  font-size: 36px;
+  line-height: 1.1;
   font-weight: 500;
+  letter-spacing: 2px;
   opacity: 0.85;
 }
 
@@ -93,13 +95,14 @@ header {
   color: var(--accent-orange);
   font-size: 72px;
   font-weight: 800;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .hero-subtitle {
   margin: 20px 0 30px;
   color: var(--text-muted);
   line-height: 1.5;
+  letter-spacing: 1px;
   text-align: justify;
   font-size: 16px;
 }
