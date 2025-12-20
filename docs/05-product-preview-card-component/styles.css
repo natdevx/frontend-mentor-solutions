@@ -66,7 +66,7 @@ body {
 }
 .card__title {
     color: var(--black-neutral);
-    font-size: 32px;
+    font-size: 34px;
     line-height: 1.1;
     letter-spacing: 1px;
     font-family: 'Fraunces', sans-serif;
@@ -142,12 +142,28 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 375px) {
-    .card {
-        flex-direction: column;
-        width: 90%;
-    }
-    .card__media {
-        width: 100%;
-    }
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    max-width: 375px;
+    margin: 20px;
+  }
+
+  .card__content {
+    padding: 24px;
+  }
+
+  .card__title {
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  .card__description {
+    max-width: none;
+  }
+
+  .card__price {
+    gap: 16px;
+  }
 }
+
