@@ -22,13 +22,26 @@ This challenge focuses on building a **responsive product card**, combining imag
   - [Overview ](#overview-)
   - [Screenshots ](#screenshots-)
     - [Desktop Version](#desktop-version)
-    - [Mobile Version](#mobile-version)
+  - [Mobile Version](#mobile-version)
   - [Links ](#links-)
   - [Built With ](#built-with-)
   - [What I Learned ](#what-i-learned-)
     - [Example: Responsive layout with Flexbox ](#example-responsive-layout-with-flexbox-)
   - [Continued Development ](#continued-development-)
   - [Autor ](#autor-)
+- [Versión en Español ](#versión-en-español-)
+  - [Frontend Mentor – Solución al Product Preview Card](#frontend-mentor--solución-al-product-preview-card)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Descripción General ](#descripción-general-)
+  - [Capturas ](#capturas-)
+    - [Versión Escritorio](#versión-escritorio)
+    - [Versión Móvil](#versión-móvil)
+  - [Enlaces ](#enlaces-)
+  - [Construido Con ](#construido-con-)
+  - [Lo que Aprendí ](#lo-que-aprendí-)
+    - [Ejemplo: Layout responsivo con Flexbox ](#ejemplo-layout-responsivo-con-flexbox-)
+  - [Desarrollo Continuo ](#desarrollo-continuo-)
+  - [Autor ](#autor--1)
 
 ---
 
@@ -50,10 +63,12 @@ The layout adapts seamlessly between **desktop and mobile screen sizes**, ensuri
 ## Screenshots <a id="screenshots"></a>
 
 ### Desktop Version
-![Desktop screenshot](./assets/images/product-preview-desktop.png)
+![Desktop screenshot](./images/recipe-page-desktop.png)
 
-### Mobile Version
-![Mobile screenshot](./assets/images/product-preview-mobile.png)
+![Active screenshot](./images/recipe-page-active.png)
+
+## Mobile Version
+![Mobile screenshot](./images/recipe-page-mobile.png)
 
 ---
 
@@ -116,4 +131,129 @@ Frontend Mentor: https://www.frontendmentor.io/profile/natdevx
 
 ---
 ---
+# Versión en Español <a id="español"></a>
 
+## Frontend Mentor – Solución al Product Preview Card
+
+Esta es mi solución al desafío  
+**Product preview card component** de Frontend Mentor.
+
+Este reto se centra en la creación de una **tarjeta de producto responsiva**, combinando imagen, tipografía, precios y un botón de acción usando **HTML semántico** y **CSS moderno**.
+
+---
+
+## Tabla de Contenidos
+
+- [Product Preview Card — Frontend Mentor Challenge](#product-preview-card--frontend-mentor-challenge)
+- [English Version ](#english-version-)
+  - [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of Contents](#table-of-contents)
+  - [Overview ](#overview-)
+  - [Screenshots ](#screenshots-)
+    - [Desktop Version](#desktop-version)
+  - [Mobile Version](#mobile-version)
+  - [Links ](#links-)
+  - [Built With ](#built-with-)
+  - [What I Learned ](#what-i-learned-)
+    - [Example: Responsive layout with Flexbox ](#example-responsive-layout-with-flexbox-)
+  - [Continued Development ](#continued-development-)
+  - [Autor ](#autor-)
+- [Versión en Español ](#versión-en-español-)
+  - [Frontend Mentor – Solución al Product Preview Card](#frontend-mentor--solución-al-product-preview-card)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Descripción General ](#descripción-general-)
+  - [Capturas ](#capturas-)
+    - [Versión Escritorio](#versión-escritorio)
+    - [Versión Móvil](#versión-móvil)
+  - [Enlaces ](#enlaces-)
+  - [Construido Con ](#construido-con-)
+  - [Lo que Aprendí ](#lo-que-aprendí-)
+    - [Ejemplo: Layout responsivo con Flexbox ](#ejemplo-layout-responsivo-con-flexbox-)
+  - [Desarrollo Continuo ](#desarrollo-continuo-)
+  - [Autor ](#autor--1)
+
+---
+
+## Descripción General <a id="descripción-general"></a>
+
+El objetivo de este reto fue construir una **tarjeta de vista previa de producto**, replicando el diseño proporcionado por Frontend Mentor.
+
+La tarjeta incluye:
+
+- Imagen adaptable para desktop y mobile  
+- Categoría del producto  
+- Título y descripción  
+- Precio actual y precio anterior  
+- Botón **“Add to Cart”** con icono  
+
+El diseño es completamente responsivo y se adapta correctamente a distintos tamaños de pantalla.
+
+---
+
+## Capturas <a id="capturas"></a>
+
+### Versión Escritorio
+![Desktop screenshot](./images/recipe-page-desktop.png)
+
+![Active screenshot](./images/recipe-page-active.png)
+
+### Versión Móvil
+![Mobile screenshot](./images/recipe-page-mobile.png)
+
+---
+
+## Enlaces <a id="enlaces"></a>
+
+- **Solución en Frontend Mentor:** *(Agrégala cuando la publiques)*  
+- **Sitio en vivo (GitHub Pages):**  
+  https://natdevx.github.io/frontend-mentor-solutions/docs/05-product-preview-card/
+
+---
+
+## Construido Con <a id="construido-con"></a>
+
+- HTML5 semántico  
+- CSS puro  
+- Variables CSS  
+- Flexbox  
+- Media queries  
+- Imágenes responsivas  
+- Estados hover y focus  
+
+---
+
+## Lo que Aprendí <a id="lo-que-aprendí"></a>
+
+En este desafío practiqué:
+
+- Construcción de componentes reutilizables  
+- Manejo de imágenes responsivas con `<picture>`  
+- Alineación de precios usando Flexbox  
+- Adaptación de layouts desktop a mobile  
+- Atención al detalle visual (pixel-perfect)  
+
+### Ejemplo: Layout responsivo con Flexbox <a id="ejemplo-layout-responsivo-con-flexbox"></a>
+
+Para cambiar el layout de escritorio a móvil, utilicé una media query sencilla:
+
+```css
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+}
+```
+
+## Desarrollo Continuo <a id="desarrollo-continuo"></a>
+
+En futuros proyectos quiero seguir mejorando:
+- Precisión visual.
+- Accesibilidad.
+- Arquitectura CSS escalable.
+- Componentes reutilizables
+
+## Autor <a id="autor-es"></a>
+
+GitHub: https://github.com/natdevx
+
+Frontend Mentor: https://www.frontendmentor.io/profile/natdevx
