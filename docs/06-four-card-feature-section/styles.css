@@ -11,7 +11,6 @@
     --color-white: hsl(0, 0%, 100%);
     /* Typography */
     --font-size-body: 15px;
-
 }
 
 * {
@@ -67,4 +66,25 @@ header p {
     padding: 60px 30px 30px 30px;
     text-align: center;
     position: relative;
+}
+
+
+
+
+/* Footer */
+.attribution {
+    margin-top: 35px;
+    font-size: 12px;
+    text-align: center;
+    color: var(--color-grey-500);
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.attribution a {
+    color: var(--color-blue);
+    text-decoration: none;
+    font-weight: bold;
+}
+.attribution a:hover {
+    text-decoration: underline;
 }
