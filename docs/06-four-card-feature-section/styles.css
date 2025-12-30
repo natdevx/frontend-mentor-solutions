@@ -59,6 +59,9 @@ header p {
     margin: 0 auto;
     align-items: center;
 }
+.card{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
 
 /* Supervisor (izquierda, centrada verticalmente) */
 .card-1 {
