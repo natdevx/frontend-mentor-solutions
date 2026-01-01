@@ -28,3 +28,67 @@ body {
     color: var(--color-dark-blue);
     line-height: 1.6;
 }
+
+
+
+
+
+/* Testimonials Grid Section */
+#testimonials-grid-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+#testimonials-grid-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+#testimonials-grid-section p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    color: var(--color-grey-500);
+    font-size: var(--font-size-13);
+}
+#testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.testimonial-card {
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.testimonial-card p {
+    font-size: var(--font-size-13);
+    margin-bottom: 15px;
+}
+.testimonial-card .author {
+    font-weight: bold;
+    color: var(--color-purple-500);
+    font-size: var(--font-size-13);
+}
+
+
+
+
+/* Footer */
+.attribution {
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+    color: var(--color-dark-blue);
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.attribution a {
+    color: var(--color-purple-500);
+    text-decoration: none;
+    font-weight: bold;
+}
+.attribution a:hover {
+    text-decoration: underline;
+}
