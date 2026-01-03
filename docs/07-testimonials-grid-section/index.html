@@ -1,84 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-  <!--Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <!-- Add your CSS file link here -->
-  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Testimonials Grid Section</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <main class="container">
-      <section class="testimonials">
-        <div class="cards__grid">
-          <article class="cards card--1">
-            <h3 class="card__name">Daniel Clifford</h3>
-            <p class="card__status">Verified Graduate</p>
-            <p class="card__testimonial">I received a job offer mid-course, and the subjects I learned were current, if not more so, 
-              in the company I joined. I honestly feel I got every penny’s worth.</p>
-            <p class="card__quote">“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
-              transition and have heard some people who had an amazing experience here. I signed up 
-              for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
-              The next 12 weeks was the best - and most grueling - time of my life. Since completing 
-              the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
-          </article>
+    <section class="testimonials">
+      <div class="testimonials__grid">
 
-          <article class="cards card--2">
-            <h3 class="card__name">Jonathan Walters</h3>
-            <p class="card__status">Verified Graduate</p>
-            <p class="card__testimonial">The team was very supportive and kept me motivated</p>
-            <p class="card__quote">“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
-              for a big company. This was one of the best investments I’ve made in myself. ”</p>
-          </article>
+        <!-- Card 1 -->
+        <article class="testimonial testimonial--purple">
+          <header class="testimonial__header">
+            <img
+              src="./images/image-daniel.jpg"
+              alt="Daniel Clifford"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__user">
+              <h2 class="testimonial__name">Daniel Clifford</h2>
+              <span class="testimonial__status">Verified Graduate</span>
+            </div>
+          </header>
 
-          <article class="cards card--3">
-            <h3 class="card__name">Jeanette Harmon</h3>
-            <p class="card__status">Verified Graduate</p>
-            <p class="card__testimonial">An overall wonderful and rewarding experience</p>
-            <p class="card__quote">“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
-              while doing something I love. ”</p>
-          </article>
+          <h3 class="testimonial__title">
+            I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined.
+          </h3>
 
-          <article class="cards card--4">
-            <h3 class="card__name">Patrick Abrams</h3>
-            <p class="card__status">Verified Graduate</p>
-            <p class="card__testimonial">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
-              learning from their experiences was easy.</p>
-            <p class="card__quote">“ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
-              gave me the confidence necessary to be able to go out in the world and present myself as a capable 
-              junior developer. The standard is above the rest. You will get the personal attention you need from 
-              an incredible community of smart and amazing people. ”</p>
-          </article>
+          <blockquote class="testimonial__quote">
+            “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
+            transition and have heard some people who had an amazing experience here. I signed up
+            for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+            The next 12 weeks was the best - and most grueling - time of my life. Since completing
+            the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+          </blockquote>
+        </article>
 
-          <article class="cards card--5">
-            <h3 class="card__name">Kira Whittle</h3>
-            <p class="card__status">Verified Graduate</p>
-            <p class="card__testimonial">Such a life-changing experience. Highly recommended!</p>
-            <p class="card__quote">“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
-              professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
-              student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
-              did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
-              project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
-              could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
-              experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
-              100% recommend! ”</p>
-          </article>
+        <!-- Card 2 -->
+        <article class="testimonial testimonial--dark-gray">
+          <header class="testimonial__header">
+            <img
+              src="./images/image-jonathan.jpg"
+              alt="Jonathan Walters"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__user">
+              <h2 class="testimonial__name">Jonathan Walters</h2>
+              <span class="testimonial__status">Verified Graduate</span>
+            </div>
+          </header>
 
-        </div>
-      </section>
+          <h3 class="testimonial__title">
+            The team was very supportive and kept me motivated
+          </h3>
+
+          <blockquote class="testimonial__quote">
+            “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
+            for a big company. This was one of the best investments I’ve made in myself. ”
+          </blockquote>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="testimonial testimonial--white">
+          <header class="testimonial__header">
+            <img
+              src="./images/image-jeanette.jpg"
+              alt="Jeanette Harmon"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__user">
+              <h2 class="testimonial__name">Jeanette Harmon</h2>
+              <span class="testimonial__status">Verified Graduate</span>
+            </div>
+          </header>
+
+          <h3 class="testimonial__title">
+            An overall wonderful and rewarding experience
+          </h3>
+
+          <blockquote class="testimonial__quote">
+            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
+            while doing something I love. ”
+          </blockquote>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="testimonial testimonial--dark-blue">
+          <header class="testimonial__header">
+            <img
+              src="./images/image-patrick.jpg"
+              alt="Patrick Abrams"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__user">
+              <h2 class="testimonial__name">Patrick Abrams</h2>
+              <span class="testimonial__status">Verified Graduate</span>
+            </div>
+          </header>
+
+          <h3 class="testimonial__title">
+            Awesome teaching support from TAs who did the bootcamp themselves
+          </h3>
+
+          <blockquote class="testimonial__quote">
+            “ The staff seem genuinely concerned about my progress which I find really refreshing.
+            The program gave me the confidence necessary to be able to go out in the world and present
+            myself as a capable junior developer. The standard is above the rest. You will get the
+            personal attention you need from an incredible community of smart and amazing people. ”
+          </blockquote>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="testimonial testimonial--white-large">
+          <header class="testimonial__header">
+            <img
+              src="./images/image-kira.jpg"
+              alt="Kira Whittle"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__user">
+              <h2 class="testimonial__name">Kira Whittle</h2>
+              <span class="testimonial__status">Verified Graduate</span>
+            </div>
+          </header>
+
+          <h3 class="testimonial__title">
+            Such a life-changing experience. Highly recommended!
+          </h3>
+
+          <blockquote class="testimonial__quote">
+            “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
+            professionals who can help me learn programming step by step. I was encouraged to enroll by
+            a former student of theirs who can only say wonderful things about the program. The entire
+            curriculum and staff did not disappoint. They were very hands-on and I never had to wait long
+            for assistance. The agile team project, in particular, was outstanding. It took my learning
+            to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it
+            during interviews as an example of my development experience. It certainly helped me land a
+            job as a full-stack developer after receiving multiple offers. 100% recommend! ”
+          </blockquote>
+        </article>
+
+      </div>
+    </section>
   </main>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">
+      Frontend Mentor
+    </a>.
     Coded by <a href="#">NatDev</a>.
-  </div>
+  </footer>
 </body>
 </html>
