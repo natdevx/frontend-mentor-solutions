@@ -93,7 +93,7 @@ body {
 
 /* Card 2 */
 .testimonial--dark-gray {
-    background-color: var(--color-dark-blue);
+    background-color: var(--color-grey-500);
     color: var(--color-white);
 }
 .testimonial--dark-gray,
@@ -109,10 +109,11 @@ body {
 .testimonial--white .testimonial__avatar {
     border: 2px solid var(--color-dark-blue);
 }
-.testimonial--white,
-.testimonial__status,
-.testimonial--white .testimonial__quote {
+.testimonial--white .testimonial__status {
     color: var(--color-dark-blue);
+}
+.testimonial--white .testimonial__quote {
+    color: var(--color-grey-500);
 }
 
 /* Card 4 */
@@ -125,6 +126,22 @@ body {
 .testimonial__status {
     color: var(--color-grey-200);
 }
+
+/* Card 5 */
+.testimonial--white-large {
+    background-color: var(--color-white);
+    color: var(--color-dark-blue);
+}
+.testimonial--white-large .testimonial__avatar {
+    border: 2px solid var(--color-dark-blue);
+}
+.testimonial--white-large .testimonial__status {
+    color: var(--color-dark-blue);
+}
+.testimonial--white-large .testimonial__quote {
+    color: var(--color-grey-500);
+}
+
 
 /* Footer */
 .attribution {
