@@ -26,27 +26,28 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
     background-color: var(--color-grey-100);
     color: var(--color-dark-blue);
-    line-height: 1.6;
+    line-height: 1.4;
 }
+
 
 /* Testimonials Section */
 .testimonials {
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 20px;
+    max-width: 1110px;
+    margin: 80px auto; 
+    padding: 0 24px;
 }
 .testimonials__grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 30px;
 }
 
 /* Testimonial Cards */
 .testimonial {
     background-color: var(--color-white);
-    padding: 30px;
+    padding: 26px 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -69,8 +70,8 @@ body {
     color: var(--color-grey-100);
 }
 .testimonial__title {
-    font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.4;
 }
 .testimonial__quote {
     font-style: normal;
@@ -96,10 +97,10 @@ body {
     background-color: var(--color-grey-500);
     color: var(--color-white);
 }
-.testimonial--dark-gray,
-.testimonial__avatar {
+.testimonial--dark-gray .testimonial__avatar {
     border: 2px solid var(--color-white);
 }
+
 
 /* Card 3 */
 .testimonial--white {
