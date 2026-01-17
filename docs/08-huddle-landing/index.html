@@ -10,23 +10,75 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="./images/logo.svg" alt="Huddle Logo">
-  </header>
-  <main>
-    <img src="./images/illustration-mockups.svg" alt="Illustration of various device mockups">
-    <h1>Build The Community Your Fans Will Love</h1>
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion.</p>
-    <a href="#" class="btn-register">Register</a>
+  <div class="container">
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="./images/logo.svg" alt="Huddle logo">
+      </a>
+    </header>
 
-  </main>
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <!-- Illustration -->
+      <section class="main__image">
+        <img 
+          src="./images/illustration-mockups.svg" 
+          alt="Mockups of the Huddle platform on different devices">
+      </section>
+
+      <!-- Text Content -->
+      <section class="main__content">
+        <h1 class="main__title">
+          Build The Community Your Fans Will Love
+        </h1>
+
+        <p class="main__description">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion.
+        </p>
+
+        <!-- Register Button -->
+        <button class="btn-register">
+          Register
+        </button>
+
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+      <!-- Social Links -->
+      <ul class="social">
+        <li>
+          <a href="#" aria-label="Facebook">
+            <img src="./images/icon-facebook.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Twitter">
+            <img src="./images/icon-twitter.svg" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="Instagram">
+            <img src="./images/icon-instagram.svg" alt="">
+          </a>
+        </li>
+      </ul>
+
+      <!-- Attribution -->
+      <p class="attribution">
+        Challenge by 
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>.
+        Coded by <a href="#">Nat</a>.
+      </p>
+
+    </footer>
+
+  </div>
 </body>
 </html>
