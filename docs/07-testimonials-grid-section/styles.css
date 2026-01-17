@@ -201,4 +201,35 @@ body {
 }
 
 
+/* Responsive */
+@media (max-width: 768px) {
+    .testimonials {
+        margin: 48px auto;
+        padding: 0 24px;
+    }
 
+    .testimonials__grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Reset grid positioning */
+    .testimonial {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
+    .testimonial__title {
+        font-size: 1.1rem;
+    }
+
+    .testimonial__quote {
+        font-size: 13px;
+    }
+
+    /* Adjust quotation background */
+    .testimonial--purple::before {
+        top: 10px;
+        right: 20px;
+        width: 90px;
+    }
+}
