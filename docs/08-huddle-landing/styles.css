@@ -17,7 +17,7 @@
 }
 body{
   background-color: var(--color-primary-700);
-  background-image: url('../08-huddle-landing/images/bg-desktop.svg');
+  background-image: url('../08-huddle-landing/images/bg-mobile.svg');
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;
@@ -117,6 +117,17 @@ body{
   border-color: hsl(300, 69%, 71%);
 }
 
+.btn-register:active {
+  background-color: var(--color-magenta-400);
+  color: #fff;
+  transform: scale(0.97);
+}
+
+.social a:active {
+  background-color: var(--color-magenta-400);
+  border-color: var(--color-magenta-400);
+}
+
 
 /* Attribution */
 .attribution {
@@ -137,7 +148,9 @@ body{
 }
 
 @media (min-width: 1024px) {
-
+  body {
+    background-image: url('../08-huddle-landing/images/bg-desktop.svg');
+  }
   .main-content {
     flex-direction: row;
     align-items: center;
@@ -145,7 +158,7 @@ body{
   }
 
   .main__image {
-    flex: 1.4;
+    flex: 1.5;
   }
 
   .main__image img {
@@ -176,4 +189,3 @@ body{
   }
 
 }
-
