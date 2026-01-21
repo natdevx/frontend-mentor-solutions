@@ -32,15 +32,38 @@ body {
 }
 
 .price-grid {
-  background-color: #ffffff;
+  margin: 20px;
   border-radius: var(--border-radius);
   overflow: hidden;
   /* Mobile-first width */
   width: 100%;
   max-width: 375px;
+  display: flex;
+  flex-direction: column;
 }
 
-
+/* Section of the header (First Card)*/
+.price-grid__header {
+    background-color: #ffffff;
+    padding: 40px;
+}
+.price-grid__header h1 {
+    color: var(--color-primary-teal-500);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.price-grid__guarantee {
+    color: var(--color-primary-green-400);
+    font-size: var(--font-size-body);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.price-grid__description {
+    color: var(--color-neutral-gray-500);
+    font-size: var(--font-size-body);
+    font-weight: 400;
+}
 
 
 
@@ -63,3 +86,9 @@ body {
 .attribution a:hover {
     text-decoration: underline;
 }
+
+@media (min-width: 768px) {
+  .price-grid {
+    max-width: 600px;
+  }
+}     
