@@ -65,9 +65,48 @@ body {
     font-weight: 400;
 }
 
+/* Section of the subscription (Second Card) */
+.price-grid__subscription {
+    background-color: var(--color-primary-teal-500);
+    color: var(--color-neutral-teal-100);
+    padding: 30px;
+}
+.price-grid__subscription h2 {
+    font-size: var(--font-size-body);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.price-grid__price strong{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+/* Button styles */
+.price-grid__button{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-primary-green-400);
+    color: var(--color-neutral-teal-100);
+    padding: 15px 0;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-body);
+    font-weight: 700;
+    text-decoration: none;
+    margin: 30px 0;
+}
 
-
-
+/* Section of the features (Third Card) */
+.price-grid__features {
+    background-color: turquoise;
+    padding: 50px;
+    color: var(--color-neutral-teal-100);
+    font-size: var(--font-size-body);
+}
+.price-grid__features ul {
+    list-style: none;
+    padding: 0;
+}
 
 /* Attribution */
 .attribution {
