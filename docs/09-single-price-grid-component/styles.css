@@ -1,0 +1,24 @@
+:root{
+    --color-primary-teal-500: hsl(179, 62%, 43%);
+    --color-primary-green-400: hsl(71, 73%, 54%);
+    --color-neutral-teal-100: hsl(204, 43%, 93%);
+    --color-neutral-gray-500: hsl(218, 22%, 67%);
+    --font-size-body: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--color-neutral-gray-500);
+    line-height: 1.6;
+}
+.container {
+    background-color: var(--color-neutral-teal-100);
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
