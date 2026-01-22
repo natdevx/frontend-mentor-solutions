@@ -24,22 +24,21 @@ body {
   font-size: var(--font-size-body);
   background-color: var(--color-neutral-teal-100);
   line-height: 1.6;
-
-  /* Center component, not layout */
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
 }
 
 .price-grid {
-  margin: 20px;
   border-radius: var(--border-radius);
   overflow: hidden;
   /* Mobile-first width */
-  width: 100%;
+  margin: 24px auto;
+  width: calc(100% - 32px);
   max-width: 375px;
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Section of the header (First Card)*/
@@ -125,7 +124,7 @@ body {
 
 /* Attribution */
 .attribution {
-    margin-top: 35px;
+    margin-top: 25px;
     font-size: 14px;
     text-align: center;
     color: #000;
