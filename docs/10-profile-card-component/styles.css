@@ -1,0 +1,35 @@
+:root {
+    /* Colors Primary */
+    --color-primary-blue-600: hsl(185, 75%, 39%);
+    --color-primary-navy-950: hsl(229, 23%, 23%);
+    --color-primary-gray-500: hsl(227, 10%, 46%);
+
+    /* Colors Neutral */
+    --color-neutral-gray-100: hsl(225, 10%, 92%);
+
+    /* Typography Body Copy */
+    --font-size-body-copy: 18px;
+
+    /* Font Family */
+    --font-family-kumbh-sans: 'Kumbh Sans', sans-serif;
+}
+
+
+
+/* Attribution */
+.attribution {
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: 600;
+}
+.attribution a:hover {
+    text-decoration: underline;
+}
