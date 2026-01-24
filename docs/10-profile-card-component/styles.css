@@ -80,6 +80,27 @@ hr {
     margin: 20px 0;
 }
 
+/* Section of stats */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number {
+    font-size: var(--font-size-body-copy);
+    font-weight: 700;
+    color: var(--color-primary-navy-950);
+}
+.label {
+    font-size: 14px;
+    color: var(--color-primary-gray-500);
+    margin-top: 5px;
+}
 
 /* Attribution */
 .attribution {
