@@ -53,6 +53,22 @@ body {
     object-fit: cover;
 }
 
+/* Card Body */
+.card-body {
+    padding: 20px;
+}
+.name {
+    font-size: var(--font-size-body-copy);
+    color: var(--color-primary-navy-950);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.age {
+    font-size: var(--font-size-body-copy);
+    font-weight: 400;
+    color: var(--color-primary-gray-500);
+}
+
 
 /* Attribution */
 .attribution {
