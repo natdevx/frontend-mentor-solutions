@@ -158,6 +158,23 @@ body {
     color: var(--dark-gray-blue);
 }
 
+/* Continue Button */
+.card__summary--button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 25px;
+    font-size: var(--font-size-paragraphs);
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.card__summary--button:hover {
+    background-color: var(--cobalt-blue);
+}
 
 
 /* Attribution */
