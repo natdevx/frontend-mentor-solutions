@@ -118,7 +118,25 @@ body {
     color: var(--dark-gray-blue);
 }
 
-
+/* Verbal */
+.card__summary--verbal {
+    background-color: hsl(166, 100%, 95%);
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.card__summary--verbal p {
+    color: var(--green-teal);
+    font-weight: 700;
+    margin-left: 10px;
+}
+.card__summary--verbal span {
+    margin-left: auto;
+    font-weight: 700;
+    color: var(--dark-gray-blue);
+}
 
 /* Attribution */
 .attribution {
