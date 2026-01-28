@@ -68,6 +68,16 @@ body {
     opacity: 0.8;
 }
 
+/* Card Summary Section */
+.card__summary {
+    padding: 30px 20px;
+}
+.card__summary h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--dark-gray-blue);
+}
 
 
 
