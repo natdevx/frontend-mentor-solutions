@@ -138,6 +138,28 @@ body {
     color: var(--dark-gray-blue);
 }
 
+/* Visual */
+.card__summary--visual {
+    background-color: hsl(234, 85%, 95%);
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.card__summary--visual p {
+    color: var(--cobalt-blue);
+    font-weight: 700;
+    margin-left: 10px;
+}
+.card__summary--visual span {
+    margin-left: auto;
+    font-weight: 700;
+    color: var(--dark-gray-blue);
+}
+
+
+
 /* Attribution */
 .attribution {
     margin-top: 25px;
