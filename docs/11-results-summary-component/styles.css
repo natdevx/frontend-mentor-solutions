@@ -78,6 +78,8 @@ body {
     margin-bottom: 20px;
     color: var(--dark-gray-blue);
 }
+/* Summary Items */
+/* Reaction */
 .card__summary--reaction {
     background-color: hsl(0, 100%, 95%);
     border-radius: 8px;
@@ -96,6 +98,26 @@ body {
     font-weight: 700;
     color: var(--dark-gray-blue);
 }
+/* Memory */
+.card__summary--memory {
+    background-color: hsl(39, 100%, 95%);
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.card__summary--memory p {
+    color: var(--orangey-yellow);
+    font-weight: 700;
+    margin-left: 10px;
+}
+.card__summary--memory span {
+    margin-left: auto;
+    font-weight: 700;
+    color: var(--dark-gray-blue);
+}
+
 
 
 /* Attribution */
