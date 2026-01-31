@@ -43,7 +43,7 @@ body {
 
 .card {
     background-color: var(--white);
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 90%;
@@ -55,29 +55,60 @@ body {
     background: linear-gradient(to bottom right, var(--light-slate-blue), var(--light-royal-blue));
     color: var(--white);
     text-align: center;
-    padding: 40px 20px;
+    padding: 40px 30px;
 }
-.card__result h1 {
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    color: var(--pale-blue);
+.card__result--rating-text {
+    font-size: 15px;
+    color: var(--light-lavender);
+    line-height: 1.4;
 }
-.card__result p {
-    font-size: var(--font-size-paragraphs);
-    opacity: 0.8;
+
+/* Card circule score */
+.card__result--score {
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: linear-gradient(
+        to bottom,
+        var(--violet-blue),
+        var(--persian-blue)
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.card__result--number {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.card__result--out-of {
+    color: var(--light-lavender);
+    font-size: 14px;
+}
+
 
 /* Card Summary Section */
 .card__summary {
-    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
 }
-.card__summary h2 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 20px;
+.card__summary--score {
+    margin-left: auto;
     color: var(--dark-gray-blue);
+    font-weight: 700;
 }
+.card__summary--score span {
+    font-weight: 800;
+}
+
 /* Summary Items */
 /* Reaction */
 .card__summary--reaction {
@@ -193,4 +224,22 @@ body {
 }
 .attribution a:hover {
     text-decoration: underline;
+}
+
+
+/* Desktop */
+@media (min-width: 768px) {
+    .card {
+        display: flex;
+        max-width: 700px;
+    }
+
+    .card__result {
+        width: 50%;
+        border-radius: 30px;
+    }
+
+    .card__summary {
+        width: 50%;
+    }
 }
