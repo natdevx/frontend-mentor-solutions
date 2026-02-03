@@ -58,13 +58,11 @@ body {
     text-align: center;
     padding: 35px 30px;
 }
-
-.card__result h2 {
+.card__result h1 {
     font-size: 18px;
     color: var(--light-lavender);
     margin-bottom: 25px;
 }
-
 .card__result--score {
     width: 140px;
     height: 140px;
@@ -80,26 +78,23 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .card__result--number {
     font-size: 56px;
     font-weight: 800;
     line-height: 1;
 }
-
 .card__result--out-of {
     font-size: 14px;
     color: var(--light-lavender);
+    margin-top: 8px;
 }
-
-.card__result h3 {
+.card__result h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-
 .card__result--rating-text {
-    font-size: 15px;
+    font-size: var(--font-size);
     line-height: 1.4;
     color: var(--light-lavender);
 }
