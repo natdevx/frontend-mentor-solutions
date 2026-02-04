@@ -68,7 +68,7 @@ body {
 .name {
     font-size: var(--font-size-body-copy);
     color: var(--color-primary-navy-950);
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 5px;
 }
 .age {
@@ -101,13 +101,15 @@ hr {
 }
 .number {
     font-size: var(--font-size-body-copy);
-    font-weight: 700;
+    font-weight: 800;
     color: var(--color-primary-navy-950);
 }
 .label {
-    font-size: 14px;
+    font-size: 12px;
     color: var(--color-primary-gray-500);
     margin-top: 5px;
+    line-height: 1.4;
+    letter-spacing: 2px;
 }
 
 /* Attribution */
