@@ -20,46 +20,20 @@
     padding: 0;
 }
 body {
-    font-family: var(--font-family-kumbh-sans);
-    background-color: var(--color-primary-blue-600);
-    min-height: 100vh;
-    margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family-kumbh-sans);
+  background-color: hsl(185, 75%, 39%);
+  background-image: 
+    url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 40vh, left 50vw top 40vh;
 }
-/* Wrapper */
-.bg-wrapper {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-/* Backgrounds separados */
-.bg-wrapper::before,
-.bg-wrapper::after {
-    content: "";
-    position: absolute;
-    width: 700px;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 0;
-}
-.bg-wrapper::before {
-    background-image: url('./images/bg-pattern-top.svg');
-    top: -350px;
-    left: -350px;
-}
-.bg-wrapper::after {
-    background-image: url('./images/bg-pattern-bottom.svg');
-    bottom: -350px;
-    right: -350px;
-}
-/* Card arriba del fondo */
-.profile-card {
-    position: relative;
-    z-index: 1;
-}
+
 
 
 /* Profile Card Styles */
