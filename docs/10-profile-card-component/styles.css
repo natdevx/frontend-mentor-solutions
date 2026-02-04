@@ -63,7 +63,7 @@ body {
 
 /* Card Body */
 .card-body {
-    padding: 20px;
+    padding: 20px 0;
 }
 .name {
     font-size: var(--font-size-body-copy);
