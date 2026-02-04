@@ -59,13 +59,13 @@ body {
     padding: 35px 30px;
 }
 .card__result h1 {
-    font-size: 18px;
+    font-size: 20px;
     color: var(--light-lavender);
     margin-bottom: 25px;
 }
 .card__result--score {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto 25px;
     border-radius: 50%;
     background: linear-gradient(
@@ -79,7 +79,7 @@ body {
     justify-content: center;
 }
 .card__result--number {
-    font-size: 56px;
+    font-size: 54px;
     font-weight: 800;
     line-height: 1;
 }
