@@ -18,3 +18,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: var(--font-family);
+    background-color: var(--light-grayish-magenta);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 40px 60px;
+}
+
+.main__container {
+    background-color: var(--white);
+    width: 90%;
+    max-width: 450px;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
