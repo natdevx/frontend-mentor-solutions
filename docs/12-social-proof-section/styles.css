@@ -67,7 +67,7 @@ body{
     border: 2px solid #000;
     border-radius: 5px;
     margin: 10px;
-    padding: 20px;
+    padding: 35px;
 }
 h2 {
     font-size: 20px;
@@ -81,6 +81,12 @@ h2 {
     margin-bottom: 20px;
 }
 
+p {
+    color: var(--white);
+    line-height: 1.2;
+    font-size: var(--font-size-base);
+
+}
 
 
 /* Attribution */
