@@ -58,7 +58,6 @@ body{
     flex-direction: column;
     gap: 1rem;
 }
-
 .rateds__item {
     background-color: var(--light-grayish-magenta);
     padding: 1rem 2rem;
@@ -67,7 +66,7 @@ body{
     font-weight: 700;
     color: var(--very-dark-magenta);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
     min-width: 320px;
 }
@@ -95,6 +94,14 @@ body{
     margin: 10px;
     padding: 35px;
 }
+/* Efecto escalonado para las cards de testimonial */
+.testimonial__item:nth-child(2) {
+    margin-top: 20px;
+}
+.testimonial__item:nth-child(3) {
+    margin-top: 40px;
+}
+
 h2 {
     font-size: 20px;
     font-weight: 700;
@@ -106,7 +113,6 @@ h2 {
     color: var(--soft-pink);
     margin-bottom: 20px;
 }
-
 p {
     color: var(--white);
     line-height: 1.4;
