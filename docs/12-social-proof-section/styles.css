@@ -69,6 +69,18 @@ body{
     margin: 10px;
     padding: 20px;
 }
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+.verified {
+    font-size: 14px;
+    color: var(--soft-pink);
+    margin-bottom: 20px;
+}
+
 
 
 /* Attribution */
