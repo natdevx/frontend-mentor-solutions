@@ -8,9 +8,7 @@
     --light-grayish-magenta: hsl(300, 24%, 96%);
     --white: hsl(0, 0%, 100%);
     
-    /* Fonts */
-        --font-family: 'League Spartan', sans-serif;
-        --font-size-base: 15px;
+    --font-family: 'League Spartan', sans-serif;
 }
 
 * {
@@ -18,7 +16,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: var(--font-family);
     background-color: var(--white);
     min-height: 100vh;
@@ -26,116 +25,152 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    padding: 40px 20px;
 }
+
 .container {
     max-width: 1100px;
     width: 100%;
 }
 
-/* Contenido principal Titulo y parafo */
-.top__section {
+/* Top layout */
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.top__text {
     max-width: 420px;
 }
-.top__section h1 {
+
+.top__text h1 {
     color: var(--very-dark-magenta);
     font-size: 3rem;
-    font-weight: 700;
     line-height: 0.9;
     margin-bottom: 1.5rem;
 }
-.top__section p {
+
+.top__text p {
     color: var(--dark-grayish-magenta);
-    font-size: 1rem;
-    line-height: 1.4;
-    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
-
-/* Espacio para las reseñas de estrellas y comentarios */
-.container__rateds {
+/* Ratings */
+.ratings {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 15px;
 }
-.rateds__item {
-    background-color: var(--light-grayish-magenta);
-    padding: 1rem 2rem;
+
+.rating {
+    background: var(--light-grayish-magenta);
+    padding: 15px 30px;
     border-radius: 8px;
-    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 25px;
     font-weight: 700;
     color: var(--very-dark-magenta);
+}
+
+.rating:nth-child(2) {
+    margin-left: 40px;
+}
+
+.rating:nth-child(3) {
+    margin-left: 80px;
+}
+
+.stars {
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    min-width: 320px;
-}
-/* Efecto escalonado */
-.rateds__item:nth-child(2) {
-    margin-left: 2rem;
-}
-.rateds__item:nth-child(3) {
-    margin-left: 4rem;
+    gap: 5px;
 }
 
-
-
-/* Espacio para los cards de los usuarios y su comentarios*/
-.container__testimonials {
+/* Testimonials */
+.testimonials {
     display: flex;
-    flex-direction: row;
+    gap: 25px;
 }
-/* Contenido de los cards testimonial */
-.testimonial__item {
-    background-color: var(--very-dark-magenta);
+
+.card {
+    background: var(--very-dark-magenta);
     color: var(--white);
-    border: 2px solid #000;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 35px;
+    padding: 30px;
+    border-radius: 8px;
 }
-/* Efecto escalonado para las cards de testimonial */
-.testimonial__item:nth-child(2) {
+
+.card:nth-child(2) {
     margin-top: 20px;
 }
-.testimonial__item:nth-child(3) {
+
+.card:nth-child(3) {
     margin-top: 40px;
 }
 
-h2 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 2px;
-}
-.verified {
-    font-size: 14px;
-    color: var(--soft-pink);
+.card__header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     margin-bottom: 20px;
 }
-p {
-    color: var(--white);
-    line-height: 1.4;
-    font-size: var(--font-size-base);
-    font-weight: 500;
+
+.card__header img {
+    width: 40px;
+    border-radius: 50%;
 }
 
+h2 {
+    font-size: 16px;
+}
+
+.verified {
+    color: var(--soft-pink);
+    font-size: 14px;
+}
+
+.card__text {
+    font-size: 15px;
+    line-height: 1.6;
+}
 
 /* Attribution */
 .attribution {
-    margin-top: 32px;
-    font-size: 16px;
-    font-weight: 600;
+    margin-top: 40px;
+    font-size: 14px;
     text-align: center;
-    color: var(--very-dark-magenta);
-    opacity: 0.7;
-    margin-bottom: 5px;
 }
+
 .attribution a {
     color: var(--soft-pink);
     text-decoration: none;
-    font-weight: 600;
 }
-.attribution a:hover {
-    text-decoration: underline;
+
+/* Responsive */
+@media (max-width: 768px) {
+    .top {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ratings {
+        width: 100%;
+    }
+
+    .rating {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 0 !important;
+    }
 }
