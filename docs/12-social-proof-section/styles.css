@@ -1,14 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
 :root {
-    /* Primary */
-    --very-dark-magenta: hsl(300, 43%, 22%);
-    --soft-pink: hsl(333, 80%, 67%);
-    
-    /* Neutral */
-    --dark-grayish-magenta: hsl(303, 10%, 53%);
-    --light-grayish-magenta: hsl(300, 24%, 96%);
-    --white: hsl(0, 0%, 100%);
-    
-    --font-family: 'League Spartan', sans-serif;
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
 }
 
 * {
@@ -18,122 +15,126 @@
 }
 
 body {
-    font-family: var(--font-family);
-    background-color: var(--white);
+    font-family: 'League Spartan';
+    font-size: 16px;
+    background-color: var(--White);
     min-height: 100vh;
+    display: grid;
+    place-content: center;
+    padding: 60px 20px;
+}
+
+.socialProofSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-}
-
-.container {
-    max-width: 1100px;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Top layout */
-.top {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin-bottom: 60px;
+.socialProofSection .headSection {
+    text-align: center;
 }
 
-.top__text {
-    max-width: 420px;
-}
-
-.top__text h1 {
-    color: var(--very-dark-magenta);
-    font-size: 3rem;
-    line-height: 0.9;
-    margin-bottom: 1.5rem;
-}
-
-.top__text p {
-    color: var(--dark-grayish-magenta);
-    line-height: 1.5;
-}
-
-/* Ratings */
-.ratings {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.rating {
-    background: var(--light-grayish-magenta);
-    padding: 15px 30px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 25px;
+.socialProofSection .headSection h1 {
+    color: var(--Very-Dark-Magenta);
+    font-size: clamp(2.5em, 7.5vw, 4em);
     font-weight: 700;
-    color: var(--very-dark-magenta);
-}
-
-.rating:nth-child(2) {
-    margin-left: 40px;
-}
-
-.rating:nth-child(3) {
-    margin-left: 80px;
-}
-
-.stars {
-    display: flex;
-    gap: 5px;
-}
-
-/* Testimonials */
-.testimonials {
-    display: flex;
-    gap: 25px;
-}
-
-.card {
-    background: var(--very-dark-magenta);
-    color: var(--white);
-    padding: 30px;
-    border-radius: 8px;
-}
-
-.card:nth-child(2) {
-    margin-top: 20px;
-}
-
-.card:nth-child(3) {
-    margin-top: 40px;
-}
-
-.card__header {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    line-height: 38px;
+    text-wrap: balance;
     margin-bottom: 20px;
 }
 
-.card__header img {
-    width: 40px;
+.socialProofSection .headSection p {
+    color: var(--Dark-Grayish-Magenta);
+    font-size: clamp(1em, 3vw, 1.5em);
+    font-weight: 400;
+    line-height: 24px;
+    text-wrap: pretty;
+}
+
+.socialProofSection .raitingSection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.raitingSection .raitingItem {
+    background-color: var(--Light-Grayish-Magenta);
+    padding: 15px 20px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.raitingStars {
+    display: flex;
+    gap: 10px;
+}
+
+.socialProofSection .testimonialSection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.socialProofSection .testimonialSection .testimonialCard {
+    background-color: var(--Very-Dark-Magenta);
+    padding: 30px 25px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonialCard .testimonialHead {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonialCard .testimonialHead img {
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 
-h2 {
-    font-size: 16px;
+.testimonialCard .testimonialHead .testimonialHeadInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
-.verified {
-    color: var(--soft-pink);
-    font-size: 14px;
+.testimonialCard .testimonialHead .testimonialHeadInfo h3 {
+    color: var(--White);
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
-.card__text {
-    font-size: 15px;
-    line-height: 1.6;
+.testimonialCard .testimonialHead .testimonialHeadInfo p {
+    color: var(--Soft-Pink);
+    font-size: 1em;
+    font-weight: 400;
 }
+
+.testimonialCard .testimonialBody p {
+    color: var(--White);
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 28px;
+}
+
 
 /* Attribution */
 .attribution {
@@ -143,34 +144,58 @@ h2 {
 }
 
 .attribution a {
-    color: var(--soft-pink);
+    color: var(--Soft-Pink);
     text-decoration: none;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .top {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
+@media (min-width: 1224px) {
+    .socialProofSection {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 55px;
     }
 
-    .ratings {
-        width: 100%;
+    .socialProofSection .headSection {
+        flex-basis: 40%;
+        margin-right: auto;
     }
 
-    .rating {
-        flex-direction: column;
-        gap: 10px;
-        margin-left: 0 !important;
-        text-align: center;
+    .socialProofSection .raitingSection {
+        flex-basis: 40%;
+        margin-top: 0;
+        margin-right: 85px;
     }
 
-    .testimonials {
-        flex-direction: column;
+    .raitingSection .raitingItem:nth-of-type(2) {
+        position: relative;
+        left: 50px;
     }
 
-    .card {
-        margin-top: 0 !important;
+    .raitingSection .raitingItem:nth-of-type(3) {
+        position: relative;
+        left: 100px;
+    }
+
+    .socialProofSection .testimonialSection {
+        flex-direction: row;
+    }
+
+    .testimonialSection .testimonialCard:nth-of-type(2) {
+        position: relative;
+        top: 30px;
+    }
+
+    .testimonialSection .testimonialCard:nth-of-type(3) {
+        position: relative;
+        top: 60px;
+    }
+
+    .socialProofSection .headSection {
+        text-align: left;
+    }
+
+    .socialProofSection .headSection h1 {
+        line-height: 50px;
+        margin-bottom: 35px;
     }
 }
