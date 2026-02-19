@@ -26,7 +26,7 @@
 
 body {
   font-family: var(--font-family-outfit);
-  background-color: var(--neutral-blue-900);
+  background-color: var(--neutral-blue-950);
   color: var(--neutral-white);
   display: flex;
   flex-direction: column;
@@ -36,13 +36,25 @@ body {
 }
 
 .card {
-  width: 480px;
-  background-color: var(--neutral-blue-800);
+  max-width: 350px;
+  background-color: var(--neutral-blue-900);
   border-radius: 15px;
-  overflow: hidden;
+  margin-top: 30px;
+  padding: 24px;
 }
 
+.card__image img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
 
+.card__content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
 
 /* Footer attribution */
