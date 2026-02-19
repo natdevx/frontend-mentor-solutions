@@ -30,7 +30,7 @@ body {
 }
 
 .socialProofSection {
-  max-width: 920px;
+  max-width: 350px;
   width: 100%;
 }
 
@@ -42,9 +42,8 @@ body {
 
 .headSection h1 {
   color: var(--Very-Dark-Magenta);
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 900;
-  line-height: 1.1;
   margin-bottom: 15px;
 }
 
@@ -89,7 +88,7 @@ body {
 .testimonialCard {
   background: var(--Very-Dark-Magenta);
   color: var(--White);
-  padding: 30px;
+  padding: 50px;
   border-radius: 10px;
 }
 
@@ -116,8 +115,8 @@ body {
 }
 
 .testimonialCard p {
-  line-height: 1.5;
-  font-size: 0.95rem;
+  line-height: 1.4;
+  font-size: 15px;
 }
 
 /* Desktop */
@@ -132,9 +131,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
+    max-width: 960px;
+    width: 100%;
   }
 
   .headSection {
+    max-width: 350px;
+    width: 100%;
     text-align: left;
   }
 
@@ -164,6 +167,14 @@ body {
     grid-column: 1 / -1;
     flex-direction: row;
     gap: 30px;
+    justify-content: center; 
+    align-items: flex-start;
+    min-width: 960px;
+    width: 100%;
+  }
+
+  .testimonialCard {
+    padding: 32px;
   }
 
   .testimonialCard:nth-child(2) {
