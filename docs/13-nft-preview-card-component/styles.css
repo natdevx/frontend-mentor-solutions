@@ -35,6 +35,7 @@ body {
   min-height: 100vh;
 }
 
+/* La card contenedor principal */
 .card {
   max-width: 350px;
   background-color: var(--neutral-blue-900);
@@ -43,6 +44,7 @@ body {
   padding: 24px;
 }
 
+/* Imagen central de la card */
 .card__image img {
   width: 100%;
   border-radius: 10px;
@@ -50,10 +52,23 @@ body {
   margin-bottom: 20px;
 }
 
+/* Contenedor principal de contenido */
 .card__content{
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+/* Título del NFT */
+.card__title a {
+  color: var(--neutral-white);
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: var(--font-weight-semi-bold);
+}
+.card__description {
+  font-size: var(--font-size-paragraph);
+  color: var(--primary-blue-500);
 }
 
 
