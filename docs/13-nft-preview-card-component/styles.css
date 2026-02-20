@@ -80,6 +80,7 @@ body {
   align-items: center;
 }
 
+/* Seccion del prince */
 .card__price {
   display: flex;
   align-items: center;
@@ -93,6 +94,7 @@ body {
   justify-content: center;
 }
 
+/* Seccion de tiempo */
 .card__time {
   display: flex;
   align-items: center;
@@ -101,9 +103,36 @@ body {
   font-size: var( --font-size-paragraph);
 }
 .card__time img {
-  width: 14px;
+  width: 18px;
   justify-content: center;
 }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--neutral-blue-800);
+  margin: 8px 0;
+}
+
+/* Seccion del creador */
+.card__creator {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.card__creator img {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--neutral-white);
+}
+.card__creator p {
+  color: var(--primary-blue-500);
+  font-size: var( --font-size-paragraph);
+}
+.card__creator span {
+  color: var(--neutral-white);
+  font-weight: var(--font-weight-light);
+}
+
 
 /* Footer attribution */
 .attribution {
