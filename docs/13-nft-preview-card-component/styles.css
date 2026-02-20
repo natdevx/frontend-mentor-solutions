@@ -40,7 +40,7 @@ body {
   max-width: 350px;
   background-color: var(--neutral-blue-900);
   border-radius: 15px;
-  margin-top: 30px;
+  margin-top: 40px;
   padding: 24px;
 }
 
@@ -63,14 +63,47 @@ body {
 .card__title a {
   color: var(--neutral-white);
   text-decoration: none;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: var(--font-weight-semi-bold);
 }
 .card__description {
   font-size: var(--font-size-paragraph);
   color: var(--primary-blue-500);
+  font-size: var( --font-size-paragraph);
+  margin-bottom: 10px;
 }
 
+/* Card de detalles */
+.card__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary-cyan-400);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var( --font-size-paragraph);
+}
+.card__price img {
+  width: 14px;
+  justify-content: center;
+}
+
+.card__time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary-blue-500);
+  font-size: var( --font-size-paragraph);
+}
+.card__time img {
+  width: 14px;
+  justify-content: center;
+}
 
 /* Footer attribution */
 .attribution {
