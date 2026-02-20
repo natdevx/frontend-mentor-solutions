@@ -91,6 +91,11 @@ body {
   font-size: 22px;
   font-weight: var(--font-weight-semi-bold);
 }
+/* Hover en el título */
+.card__title a:hover {
+  color: var(--primary-cyan-400);
+  transition: color 0.3s ease;
+}
 
 /* Descripción */
 .card__description {
@@ -157,9 +162,14 @@ hr {
   color: var(--primary-blue-500);
 }
 
-.card__creator span {
+/* Hover en el nombre del creador */
+.card__creator-name {
   color: var(--neutral-white);
-  font-weight: var(--font-weight-regular);
+  text-decoration: none;
+}
+.card__creator-name:hover {
+  color: var(--primary-cyan-400);
+  transition: color 0.3s ease;
 }
 
 /* Footer */
