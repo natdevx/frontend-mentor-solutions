@@ -1,0 +1,18 @@
+:root {
+    /* Colors Primary*/
+    --color-gold-500: hsl(31, 77%, 52%);
+    --color-cyan-800: hsl(184, 100%, 22%);
+    --color-green-950: hsl(179, 100%, 13%);
+    /* Colors Neutral*/
+    --color-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --color-gray-100: hsl(0, 0%, 95%);
+    
+    /* Typography */
+    --font-family-body: 'Lexend Deca', sans-serif;
+    --font-family-heading: 'Big Shoulders', cursive;
+    
+    --font-weight-body: 400;
+    --font-weight-heading: 700;
+    
+    --font-size-body: 15px;
+}
