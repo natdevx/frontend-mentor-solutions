@@ -59,6 +59,10 @@ body {
   margin-bottom: 20px;
 }
 
+.card__overlay img {
+  width: 50px;
+  pointer-events: none;
+}
 .card__overlay {
   position: absolute;
   inset: 0;
