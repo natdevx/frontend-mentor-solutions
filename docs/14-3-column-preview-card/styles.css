@@ -29,14 +29,30 @@ body {
 
 .container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 40px;
 }
 
-
-
+.card {
+    background-color: var(--color-transparent-white);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+.card--sedans {
+    background-color: var(--color-gold-500);
+}
+.card--suvs {
+    background-color: var(--color-cyan-800);
+}
+.card--luxury {
+    background-color: var(--color-green-950);
+}
 
 
 
