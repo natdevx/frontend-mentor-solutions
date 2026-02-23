@@ -24,5 +24,30 @@
 }
 body {
     background-color: var(--color-gray-100);
+    font-family: var(--font-family-body);
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+
+
+
+
+
+/* Footer */
+.attribution {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: var(--font-size-body);
+}
+.attribution a {
+  color: var(--color-green-950);
+  text-decoration: none;
+}
