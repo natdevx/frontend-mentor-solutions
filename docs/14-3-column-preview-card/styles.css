@@ -93,6 +93,12 @@ body {
 .card--luxury .card__button {
     color: var(--color-green-950);
 }
+/* Efecto hover a los botones */
+.card__button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
 
 
 /* Footer */
