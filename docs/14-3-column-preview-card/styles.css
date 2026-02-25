@@ -60,6 +60,17 @@ body {
     border-radius: 0 10px 10px 0;
 }
 
+/* Tipografia para titulo y parafos */
+.card__title {
+    font-family: var(--font-family-heading);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.card__description {
+    color: var(--color-transparent-white);
+    line-height: 1.6;
+    font-size: var(--font-size-body);
+}
 
 
 /* Footer */
