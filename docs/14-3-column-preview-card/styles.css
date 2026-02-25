@@ -1,13 +1,10 @@
 :root {
-    /* Colors Primary*/
     --color-gold-500: hsl(31, 77%, 52%);
     --color-cyan-800: hsl(184, 100%, 22%);
     --color-green-950: hsl(179, 100%, 13%);
-    /* Colors Neutral*/
     --color-transparent-white: hsla(0, 0%, 100%, 0.75);
     --color-gray-100: hsl(0, 0%, 95%);
     
-    /* Typography */
     --font-family-body: 'Lexend Deca', sans-serif;
     --font-family-heading: 'Big Shoulders', cursive;
     
@@ -22,6 +19,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: var(--color-gray-100);
     font-family: var(--font-family-body);
@@ -32,26 +30,28 @@ body {
     align-items: center;
 }
 
-/* Diseño de las tarjetas */
+/* CONTENEDOR */
 .cards {
     display: flex;
-    max-width: 900px;
-    height: 480px;
+    max-width: 920px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
+/* TARJETAS */
 .card {
     padding: 48px;
     width: 300px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
+    margin-top: 20px;
 }
 
-/* Colores y diseño de cada tarjetas */
+/* COLORES */
 .card--sedans {
     background-color: var(--color-gold-500);
-    border-radius: 10px 0 0 10px;
 }
 
 .card--suvs {
@@ -60,31 +60,28 @@ body {
 
 .card--luxury {
     background-color: var(--color-green-950);
-    border-radius: 0 10px 10px 0;
 }
 
-/* Diseño a los iconos de las tarjetas */
+/* ICONO */
 .card__icon {
-    width: 70px;
-    height: auto;
+    width: 65px;
 }
 
-/* Tipografia para titulo y parafos */
+/* TITULO */
 .card__title {
     font-family: var(--font-family-heading);
-    font-size: 36px;
-    font-weight: var(--font-weight-heading);
+    font-size: 38px;
     text-transform: uppercase;
 }
+
+/* DESCRIPCION */
 .card__description {
     font-size: var(--font-size-body);
-    font-family: var(--font-family-body);
-    font-weight: var(--font-weight-body);
     color: var(--color-transparent-white);
     line-height: 1.6;
 }
 
-/* Botones */
+/* BOTON */
 .card__button {
     margin-top: auto;
     background-color: var(--color-gray-100);
@@ -95,45 +92,46 @@ body {
     width: fit-content;
     transition: 0.3s ease;
 }
-/* Colores para los botones de cada tarjeta */
+
+/* Colores botón */
 .card--sedans .card__button {
     color: var(--color-gold-500);
 }
+
 .card--suvs .card__button {
     color: var(--color-cyan-800);
 }
+
 .card--luxury .card__button {
     color: var(--color-green-950);
 }
-/* Efecto hover a los botones */
+
+/* Hover */
 .card__button:hover {
     background-color: transparent;
     color: white;
     border: 2px solid white;
 }
 
-/* Responsive */
+/* RESPONSIVE */
 @media (max-width: 768px) {
+
     .cards {
         flex-direction: column;
+        max-width: 330px;
     }
 
-    .card--sedans {
-        border-radius: 10px 10px 0 0;
-    }
-
-    .card--luxury {
-        border-radius: 0 0 10px 10px;
+    .card {
+        width: 100%;
     }
 }
 
-
-/* Footer */
+/* FOOTER */
 .attribution {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
+  font-size: 14px;
   margin-bottom: 20px;
-  font-size: var(--font-size-body);
 }
 .attribution a {
   color: var(--color-cyan-800);
