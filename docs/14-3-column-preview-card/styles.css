@@ -83,8 +83,16 @@ body {
     width: fit-content;
     transition: 0.3s ease;
 }
-
-
+/* Colores para los botones de cada tarjeta */
+.card--sedans .card__button {
+    color: var(--color-gold-500);
+}
+.card--suvs .card__button {
+    color: var(--color-cyan-800);
+}
+.card--luxury .card__button {
+    color: var(--color-green-950);
+}
 
 
 /* Footer */
