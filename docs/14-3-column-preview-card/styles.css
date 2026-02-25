@@ -35,8 +35,6 @@ body {
 .cards {
     display: flex;
     max-width: 900px;
-    gap: 20px;
-    padding: 20px;
 }
 
 .card {
@@ -46,6 +44,20 @@ body {
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+
+.card--sedans {
+    background-color: var(--color-gold-500);
+    border-radius: 10px 0 0 10px;
+}
+
+.card--suvs {
+    background-color: var(--color-cyan-800);
+}
+
+.card--luxury {
+    background-color: var(--color-green-950);
+    border-radius: 0 10px 10px 0;
 }
 
 
