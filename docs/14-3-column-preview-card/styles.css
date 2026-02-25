@@ -25,33 +25,27 @@
 body {
     background-color: var(--color-gray-100);
     font-family: var(--font-family-body);
-}
-
-.container {
+    min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.cards {
+    display: flex;
+    max-width: 900px;
     gap: 20px;
-    padding: 40px;
+    padding: 20px;
 }
 
 .card {
-    background-color: var(--color-transparent-white);
-    border-radius: 10px;
-    padding: 20px;
+    padding: 48px;
     width: 300px;
-    text-align: center;
     color: white;
-}
-.card--sedans {
-    background-color: var(--color-gold-500);
-}
-.card--suvs {
-    background-color: var(--color-cyan-800);
-}
-.card--luxury {
-    background-color: var(--color-green-950);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 
@@ -59,7 +53,7 @@ body {
 /* Footer */
 .attribution {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 20px;
   font-size: var(--font-size-body);
 }
