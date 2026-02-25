@@ -32,9 +32,11 @@ body {
     align-items: center;
 }
 
+/* Diseño de las tarjetas */
 .cards {
     display: flex;
     max-width: 900px;
+    height: 480px;
 }
 
 .card {
@@ -46,6 +48,7 @@ body {
     gap: 25px;
 }
 
+/* Colores y diseño de cada tarjetas */
 .card--sedans {
     background-color: var(--color-gold-500);
     border-radius: 10px 0 0 10px;
@@ -60,16 +63,25 @@ body {
     border-radius: 0 10px 10px 0;
 }
 
+/* Diseño a los iconos de las tarjetas */
+.card__icon {
+    width: 70px;
+    height: auto;
+}
+
 /* Tipografia para titulo y parafos */
 .card__title {
     font-family: var(--font-family-heading);
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: var(--font-weight-heading);
     text-transform: uppercase;
 }
 .card__description {
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight-body);
     color: var(--color-transparent-white);
     line-height: 1.6;
-    font-size: var(--font-size-body);
 }
 
 /* Botones */
@@ -124,6 +136,6 @@ body {
   font-size: var(--font-size-body);
 }
 .attribution a {
-  color: var(--color-green-950);
+  color: var(--color-cyan-800);
   text-decoration: none;
 }
