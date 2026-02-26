@@ -36,16 +36,18 @@ body {
     max-width: 920px;
     border-radius: 10px;
     overflow: hidden;
+    align-items: stretch;
 }
 
 /* TARJETAS */
 .card {
-    padding: 48px;
+    padding: 42px;
     width: 300px;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    min-height: 500px;
 }
 
 /* COLORES */
