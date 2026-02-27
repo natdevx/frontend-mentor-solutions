@@ -13,18 +13,29 @@
 <body>
   <main>
     <section class="card">
+      <!--Seccion de la imagen del encabezado -->
       <div class="card__image">
         <img src="./images/illustration-hero.svg" alt="Order summary illustration">
       </div>
-
+      <!--Seccion del contenido del card -->
       <div class="card__content">
         <h1 class="card__title">Order Summary</h1>
         <p class="card__description">
           You can now listen to millions of songs, audiobooks, and podcasts on any 
           device anywhere you like!
         </p>
-
-        
+        <!--Seccion del plan seleccionado -->
+        <div class="card__plan">
+          <img src="./images/icon-music.svg" alt="Music icon">
+          <div class="card__plan-details">
+            <p class="card__plan-name">Annual Plan</p>
+            <p class="card__plan-price">$59.99/year</p>
+          </div>
+          <a href="#" class="card__plan-change">Change</a>
+        </div>
+        <!--Seccion de los botones -->
+        <button class="card__button card__button--primary">Proceed to Payment</button>
+        <button class="card__button card__button--secondary">Cancel Order</button>
       </div>
     </section>
   </main>
