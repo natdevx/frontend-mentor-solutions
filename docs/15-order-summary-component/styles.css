@@ -23,9 +23,27 @@ body {
     background-color: var(--blue-100);
     font-family: var(--font-family);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+
+
+
+
+
+/* FOOTER */
+.attribution {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: var(--blue-700);
+    text-decoration: none;
+}
 
