@@ -29,8 +29,20 @@ body {
     height: 100vh;
 }
 
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 540px;
+    overflow: hidden;
+}
 
-
+/* Diseño para la imagen principal de la tarjeta */
+.card__image img {
+    width: 100%;
+    height: auto;
+}
 
 
 
