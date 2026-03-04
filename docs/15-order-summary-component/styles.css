@@ -111,6 +111,10 @@ body {
     text-align: center;
     width: 260px;
 }
+.card__button--primary {
+    background-color: var(--blue-700);
+    color: white;
+}
 
 
 
