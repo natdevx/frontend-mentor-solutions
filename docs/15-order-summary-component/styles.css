@@ -45,23 +45,28 @@ body {
 }
 
 /* Diseño para el contenido de la tarjeta */
-card__content {
-    padding: 30px;
+.card__content {
+    padding: 35px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .card__title {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: var(--font-weight-900);
     color: var(--blue-950);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
-.card__content p {
-    font-size: var(--font-size-paragraph);
+
+.card__description {
+    font-size: 15px;
+    font-weight: var(--font-weight-500);
     color: var(--gray-600);
-    margin-bottom: 30px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    max-width: 280px;
 }
 
 
