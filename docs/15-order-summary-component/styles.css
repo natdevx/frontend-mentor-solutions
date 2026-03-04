@@ -97,6 +97,21 @@ body {
     color: var(--gray-600);
 }
 
+/* Diseño para los botones */
+.card__buttons {
+    display: flex;
+    gap: 20px;
+}
+.card__button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: var(--font-weight-700);
+    text-decoration: none;
+    text-align: center;
+    width: 260px;
+}
+
 
 
 /* FOOTER */
