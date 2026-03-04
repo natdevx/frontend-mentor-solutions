@@ -115,6 +115,10 @@ body {
     background-color: var(--blue-700);
     color: white;
 }
+.card__button--primary:hover {
+    background-color: hsl(245, 75%, 42%);
+}
+
 
 
 
