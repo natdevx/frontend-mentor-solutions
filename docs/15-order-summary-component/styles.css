@@ -119,6 +119,15 @@ body {
     background-color: hsl(245, 75%, 42%);
 }
 
+.card__button--secondary {
+    background-color: transparent;
+    color: var(--gray-600);
+    border: 1px solid var(--gray-600);
+}
+.card__button--secondary:hover {
+    background-color: var(--gray-600);
+    color: white;
+}
 
 
 
