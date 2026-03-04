@@ -123,6 +123,7 @@ body {
     background-color: transparent;
     color: var(--gray-600);
     border: 1px solid var(--gray-600);
+    margin-top: 10px;
 }
 .card__button--secondary:hover {
     background-color: var(--gray-600);
