@@ -142,6 +142,19 @@ body {
     background-color: hsl(245, 75%, 60%);
 }
 
+/* Diseño para el boton secundario */
+.card__button--secondary {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: var(--gray-600);
+    font-weight: var(--font-weight-900);
+}
+
+.card__button--secondary:hover {
+    color: var(--blue-950);
+}
+
 
 /* FOOTER */
 .attribution {
