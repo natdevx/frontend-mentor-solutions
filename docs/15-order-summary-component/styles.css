@@ -69,33 +69,22 @@ body {
 }
 
 /* Diseño para el plan anual */
-.card__plan{
+.card__plan {
     background-color: var(--blue-50);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 20px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+    width: 100%;
     margin-bottom: 30px;
 }
+
 .card__plan img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
-.card__plan-info {
-    display: flex;
-    flex-direction: column;
-}
-.card__plan-name {
-    font-size: 14px;
-    font-weight: var(--font-weight-700);
-    color: var(--blue-950);
-}
-.card__plan-price {
-    font-size: 14px;
-    font-weight: var(--font-weight-500);
-    color: var(--gray-600);
-}
+
 
 /* Diseño para los botones */
 .card__buttons {
