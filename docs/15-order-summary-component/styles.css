@@ -26,7 +26,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 40px 20px;
 }
 
 .card {
@@ -123,8 +124,8 @@ body {
     width: 100%;
     padding: 15px;
     border-radius: 12px;
-    font-size: 15px;
-    font-weight: var(--font-weight-900);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-700);
     text-align: center;
     border: none;
     cursor: pointer;
@@ -159,8 +160,8 @@ body {
 /* FOOTER */
 .attribution {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 14px;
 }
 
