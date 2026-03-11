@@ -40,6 +40,16 @@ main{
     display: grid;
     gap: 14px;
 }
+.card__title{
+    font-family: var(--font-family);
+    font-size: 24px;
+    color: var(--black);
+}
+.card__description{
+    font-family: var(--font-family);
+    font-size: var(--font-size--body);
+    color: var(--black);
+}
 
 
 
