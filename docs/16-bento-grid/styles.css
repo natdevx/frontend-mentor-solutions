@@ -90,4 +90,25 @@ main{
     background-color: var(--purple-100);
     grid-row: span 2;
 }
+.card--schedule h2{
+    font-size: 28px;
+    color: var(--black);
+}
+.card--schedule p{
+    color: var(--black);
+    font-size: var(--font-size--body);
+}
 
+/* Card4: Write card */
+.card--write{
+    background-color: var(--yellow-500);
+    grid-row: span 2;
+}
+.card--write h2{
+    font-size: 28px;
+    color: var(--black);
+}
+.card--write p{
+    color: var(--black);
+    font-size: var(--font-size--body);
+}
