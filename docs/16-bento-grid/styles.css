@@ -112,3 +112,17 @@ main{
     color: var(--black);
     font-size: var(--font-size--body);
 }
+
+/* Card 5: Card accounts */
+.card--accounts{
+    background-color: var(--white);
+    grid-column: span 2;
+}
+.card--accounts h2{
+    font-size: 28px;
+    color: var(--black);
+}
+.card--accounts p{
+    color: var(--black);
+    font-size: var(--font-size--body);
+}
