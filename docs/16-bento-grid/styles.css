@@ -56,7 +56,7 @@ main{
 /* Card 1: card--create */
 .card--create{
     background-color: var(--yellow-100);
-    grid-row: span 2;
+    grid-row: span 3;
 }
 .card--create h1{
     font-size: 28px;
@@ -69,10 +69,24 @@ main{
 
 /* Card2: Hero Card */
 .card--hero{
+    background-color: var(--purple-500);
     grid-column: span 2;
+    grid-row: span 2;
+}
+.card--hero h2{
+    font-size: 40px;
+    color: var(--white);
+}
+.card--hero span{
+    color: var(--yellow-500);
+}
+.card--hero p{
+    color: var(--white);
+    font-size: var(--font-size--body);
 }
 
+/* Card3: Schedule Card */
 .card--schedule{
-    grid-row: span 2;
+    grid-row: span 3;
 }
 
