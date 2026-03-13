@@ -42,6 +42,15 @@ main{
     gap: 14px;
 }
 
+/* Card text container */
+.card h1,
+.card h2{
+    font-size: 24px;
+    color: var(--black);
+}
+.card p{
+    font-size: var(--font-size--body);
+}
 
 
 
