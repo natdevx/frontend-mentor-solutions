@@ -99,7 +99,7 @@ main{
     font-size: var(--font-size--body);
 }
 
-/* Card4: Write card */
+/* Card 4: Write card */
 .card--write{
     background-color: var(--yellow-500);
     grid-row: span 2;
