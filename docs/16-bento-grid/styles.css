@@ -39,7 +39,7 @@ main{
 .bento{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 /* Card container */
@@ -62,7 +62,12 @@ main{
     font-size: var(--font-size--body);
 }
 
-/* Hero Card */
+/* Card 1: card--create */
+.card--create{
+    grid-row: span 2;
+}
+
+/* Card2: Hero Card */
 .card--hero{
     grid-column: span 2;
 }
