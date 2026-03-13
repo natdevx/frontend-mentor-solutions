@@ -62,5 +62,9 @@ main{
     font-size: var(--font-size--body);
 }
 
+/* Hero Card */
+.card--hero{
+    grid-column: span 2;
+}
 
 
