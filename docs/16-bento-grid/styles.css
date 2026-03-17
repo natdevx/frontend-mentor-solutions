@@ -71,6 +71,7 @@ main{
 .card--hero{
     background-color: var(--purple-500);
     grid-column: span 2;
+    grid-row: span 2;
 }
 .card--hero h2{
     font-size: 40px;
@@ -88,7 +89,7 @@ main{
 /* Card3: Schedule Card */
 .card--schedule{
     background-color: var(--purple-100);
-    grid-row: span 2;
+    grid-row: span 3;
 }
 .card--schedule h2{
     font-size: 28px;
