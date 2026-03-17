@@ -117,7 +117,7 @@ main{
 /* Card 5: Card accounts */
 .card--accounts{
     background-color: var(--white);
-    grid-column: span 2;
+    grid-column: span 1;
 }
 .card--accounts h2{
     font-size: 28px;
@@ -127,8 +127,20 @@ main{
     color: var(--black);
     font-size: var(--font-size--body);
 }
-
-
+ 
+/* Card 6: Card posting */
+.card--posting{
+    background-color: var(--yellow-500);
+    grid-column: span 1;
+}
+.card--posting h2{
+    font-size: 28px;
+    color: var(--black);
+}
+.card--posting p{
+    color: var(--black);
+    font-size: var(--font-size--body);
+}
 
 
 /* FOOTER */
