@@ -142,6 +142,22 @@ main{
     font-size: var(--font-size--body);
 }
 
+/* Card 7: Card growth */
+.card--growth{
+    background-color: var(--white);
+    grid-column: span 1;
+}
+.card--growth h2{
+    font-size: 28px;
+    color: var(--black);
+}
+.card--growth p{
+    color: var(--black);
+    font-size: var(--font-size--body);
+}
+
+
+
 
 /* FOOTER */
 .attribution {
