@@ -156,7 +156,19 @@ main{
     font-size: var(--font-size--body);
 }
 
-
+/* Card 8: Card settings */
+.card--followers{
+    background-color: var(--purple-500);
+    grid-column: span 2;
+}
+.card--followers h2{
+    font-size: 28px;
+    color: var(--white);
+}
+.card--followers p{
+    color: var(--white);
+    font-size: var(--font-size--body);
+}
 
 
 /* FOOTER */
