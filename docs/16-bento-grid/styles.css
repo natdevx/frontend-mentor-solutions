@@ -126,3 +126,19 @@ main{
     color: var(--black);
     font-size: var(--font-size--body);
 }
+
+
+
+
+/* FOOTER */
+.attribution {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: var(--purple-500);
+    text-decoration: none;
+}
