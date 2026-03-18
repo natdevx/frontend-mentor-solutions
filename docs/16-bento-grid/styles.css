@@ -161,6 +161,8 @@ main{
 
 /* Card 8: Card settings */
 .card--followers{
+    display: flex;
+    align-items: center;
     background-color: var(--purple-500);
     grid-column: span 2;
 }
