@@ -104,6 +104,7 @@ main{
 /* Card 4: Write card */
 .card--write{
     background-color: var(--yellow-500);
+    grid-column: 1;
     grid-row: span 2;
 }
 .card--write h2{
